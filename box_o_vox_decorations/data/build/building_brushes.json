@@ -1,0 +1,168 @@
+{
+    "type": "index",
+    "always_available": {
+        "stone resource": {
+            "colors": {
+                "#344913": {
+                    "display_name": "Vox Green 1",
+                    "ordinal": 0.00000001
+                },
+                "#456119": {
+                    "display_name": "Vox Green 2",
+                    "ordinal": 0.00000002
+                },
+                "#587A20": {
+                    "display_name": "Vox Green 3",
+                    "ordinal": 0.00000003
+                },
+                "#491334": {
+                    "display_name": "Vox Purple 1",
+                    "ordinal": 0.00000004
+                },
+                "#611945": {
+                    "display_name": "Vox Purple 2",
+                    "ordinal": 0.00000005
+                },
+                "#7A2057": {
+                    "display_name": "Vox Purple 3",
+                    "ordinal": 0.00000006
+                },
+                "#133449": {
+                    "display_name": "Vox Blue 1",
+                    "ordinal": 0.00000007
+                },
+                "#194561": {
+                    "display_name": "Vox Blue 2",
+                    "ordinal": 0.00000008
+                },
+                "#20587A": {
+                    "display_name": "Vox Blue 3",
+                    "ordinal": 0.00000009
+                },
+                "#FFFFFF": {
+                    "display_name": "Vox White 1",
+                    "ordinal": 0.00000010
+                },
+                "#2B2B2B": {
+                    "display_name": "Vox Gray 1",
+                    "ordinal": 0.00000011
+                },
+                "#3C3C3C": {
+                    "display_name": "Vox Gray 2",
+                    "ordinal": 0.00000012
+                },
+                "#505050": {
+                    "display_name": "Vox Gray 3",
+                    "ordinal": 0.00000013
+                },
+                "#666666": {
+                    "display_name": "Vox Gray 4",
+                    "ordinal": 0.00000014
+                },
+                "#7C7C7C": {
+                    "display_name": "Vox Gray 5",
+                    "ordinal": 0.00000015
+                }
+            }
+        },
+        "wood resource": {
+            "colors": {
+                "#790000": {
+                    "display_name": "Vox Red 1",
+                    "ordinal": 0.00000016
+                },
+                "#940000": {
+                    "display_name": "Vox Red 2",
+                    "ordinal": 0.00000017
+                },
+                "#AD0000": {
+                    "display_name": "Vox Red 3",
+                    "ordinal": 0.00000018
+                }
+            }
+        }
+    },
+    "pattern": {
+        "stone resource": {
+            "patterns": {
+                "box_o_vox_decorations:data:build:brushes:pattern:vox_cobblestone": {
+                    "icon": "file(vox_cobblestone_pattern.png)",
+                    "display_name": "Vox Cobblestone"
+                }
+            }
+        }
+    },
+    "wall": {
+        "wood resource": {
+            "patterns": {
+                "box_o_vox_decorations:data:build:brushes:wall:red_wood_wall": {
+                    "icon": "file(red_wood_wall.png)",
+                    "display_name": "Vox Red Pattern"
+                }
+            },
+            "colors": {}
+        },
+        "stone resource": {
+            "patterns": {
+                "box_o_vox_decorations:data:build:brushes:wall:blue_stone_wall": {
+                    "icon": "file(blue_stone_wall.png)",
+                    "display_name": "Vox Blue Pattern"
+                },
+                "box_o_vox_decorations:data:build:brushes:wall:green_stone_wall": {
+                    "icon": "file(green_stone_wall.png)",
+                    "display_name": "Vox Green Pattern"
+                },
+                "box_o_vox_decorations:data:build:brushes:wall:purple_stone_wall": {
+                    "icon": "file(purple_stone_wall.png)",
+                    "display_name": "Vox Purple Pattern"
+                }
+            },
+            "colors": {}
+        }
+    },
+    "roof": {
+        "stone resource": {
+            "patterns": {
+                "box_o_vox_decorations:data:build:brushes:roof:vox_green_roof": {
+                    "icon": "file(vox_green_roof.png)",
+                    "display_name": "Vox Green Peaked",
+                    "type": "peaked"
+                },
+                "box_o_vox_decorations:data:build:brushes:roof:vox_purple_roof": {
+                    "icon": "file(vox_purple_roof.png)",
+                    "display_name": "Vox Purple Peaked",
+                    "type": "peaked"
+                },
+                "box_o_vox_decorations:data:build:brushes:roof:vox_blue_roof": {
+                    "icon": "file(vox_blue_roof.png)",
+                    "display_name": "Vox Blue Peaked",
+                    "type": "peaked"
+                },
+                "box_o_vox_decorations:data:build:brushes:roof:vox_green_castle": {
+                    "icon": "file(vox_green_castle.png)",
+                    "display_name": "Vox Green Castle",
+                    "type": "flat"
+                },
+                "box_o_vox_decorations:data:build:brushes:roof:vox_purple_castle": {
+                    "icon": "file(vox_purple_castle.png)",
+                    "display_name": "Vox Purple Castle",
+                    "type": "flat"
+                },
+                "box_o_vox_decorations:data:build:brushes:roof:vox_blue_castle": {
+                    "icon": "file(vox_blue_castle.png)",
+                    "display_name": "Vox Blue Castle",
+                    "type": "flat"
+                }
+            }
+        },
+        "wood resource": {
+            "patterns": {
+                "box_o_vox_decorations:data:build:brushes:roof:vox_red_castle": {
+                    "icon": "file(vox_red_castle.png)",
+                    "display_name": "Vox Red",
+                    "type": "flat"
+                }
+            }
+        }
+    }
+}

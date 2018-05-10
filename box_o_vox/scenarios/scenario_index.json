@@ -1,0 +1,36 @@
+{
+    "static": {
+        "scenarios": [
+         "file(static/fox_nest)",
+
+         "file(static/terrain/rabbit_clan_statue)",
+         "file(static/terrain/salt_rock_vein)"
+      ],
+        "categories": {
+            "terrain": {
+                "density": 6,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "immediate"
+            },
+            "wildlife": {
+                "density": 4,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "revealed"
+            },
+            "ruins": {
+                "density": 0.4,
+                "priority": 0,
+                "location_type": "surface",
+                "activation_type": "immediate"
+            },
+            "ore": {
+                "density": 8,
+                "priority": 0,
+                "location_type": "underground",
+                "activation_type": "revealed"
+            }
+        }
+    }
+}

@@ -1,0 +1,451 @@
+{
+      "type": "index",
+      "categories": {
+            "head_hair": [
+                  "head_hair"
+            ],
+            "face_hair": [
+                  "eyebrows",
+                  "facial_hair"
+            ],
+            "skin_color": [
+                  "skin_color"
+            ],
+            "eye_color": [
+                  "eye_color"
+            ],
+            "hair_color": [
+                  "hair_color"
+            ],
+            "accessory": [
+                  "accessory",
+                  "luxury"
+            ]
+      },
+      "styles": {
+            "hair_color": {
+                  "type": "material_map",
+                  "values": {
+                        "black": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_black_material_map.json"
+                        },
+                        "brown": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_brown_material_map.json"
+                        },
+                        "red": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_red_material_map.json"
+                        },
+                        "sandy": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_sandy_material_map.json"
+                        },
+                        "blonde": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_blonde_material_map.json"
+                        },
+                        "platinum": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_platinum_material_map.json"
+                        },
+                        "blue": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_blue_material_map.json"
+                        },
+                        "green": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_green_material_map.json"
+                        },
+                        "grey": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_grey_material_map.json"
+                        },
+                        "greyscale": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_greyscale_material_map.json"
+                        },
+                        "ice": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_ice_material_map.json"
+                        },
+                        "icki": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_icki_material_map.json"
+                        },
+                        "lavender": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_lavender_material_map.json"
+                        },
+                        "lime": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_lime_material_map.json"
+                        },
+                        "orange": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_orange_material_map.json"
+                        },
+                        "pink": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_pink_material_map.json"
+                        },
+                        "purple": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_purple_material_map.json"
+                        },
+                        "silver": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_silver_material_map.json"
+                        },
+                        "crazy": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy_material_map.json"
+                        },
+                        "crazy2": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy2_material_map.json"
+                        },
+                        "flame": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_flame_material_map.json"
+                        },
+                        "white": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_white_material_map.json"
+                        }
+                  }
+            },
+            "skin_color": {
+                  "type": "material_map",
+                  "values": {
+                        "white": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_white_material_map.json"
+                        },
+                        "brown_1": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_brown1_material_map.json"
+                        },
+                        "brown_2": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_brown2_material_map.json"
+                        },
+                        "vox_demon": {
+                            "file": "/box_o_vox_customizations/data/materials/material_maps/skin_demon_material_map.json"
+                        }
+                  }
+            },
+            "eye_color": {
+                  "type": "material_map",
+                  "values": {
+                        "aqua": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_aqua_material_map.json"
+                        },
+                        "black": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_black_material_map.json"
+                        },
+                        "blue": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_blue_material_map.json"
+                        },
+                        "blurple": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_blurple_material_map.json"
+                        },
+                        "brown": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_brown_material_map.json"
+                        },
+                        "green": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_green_material_map.json"
+                        },
+                        "hazel": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_hazel_material_map.json"
+                        },
+                        "magenta": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_magenta_material_map.json"
+                        },
+                        "red": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_red_material_map.json"
+                        },
+                        "yellow": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_yellow_material_map.json"
+                        }
+                  }
+            },
+            "head_hair": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "hair_1": {
+                              "file": "file(hair_1.qb)"
+                        },
+                        "hair_2": {
+                              "file": "file(hair_2.qb)"
+                        },
+                        "hair_3": {
+                              "file": "file(hair_3.qb)"
+                        },
+                        "hair_4": {
+                              "file": "file(hair_4.qb)"
+                        },
+                        "hair_5": {
+                              "file": "file(hair_5.qb)"
+                        },
+                        "hair_6": {
+                              "file": "file(hair_6.qb)"
+                        },
+                        "hair_7": {
+                              "file": "file(hair_7.qb)"
+                        },
+                        "hair_8": {
+                              "file": "file(hair_8.qb)"
+                        },
+                        "hair_8bit_doubletail": {
+                              "file": "file(hair_8bit_doubletail.qb)"
+                        },
+                        "hair_8bit_hawk1": {
+                              "file": "file(hair_8bit_hawk1.qb)"
+                        },
+                        "hair_8bit_hawk2": {
+                              "file": "file(hair_8bit_hawk2.qb)"
+                        },
+                        "hair_8bit_largebun": {
+                              "file": "file(hair_8bit_largebun.qb)"
+                        },
+                        "hair_8bit_largepony": {
+                              "file": "file(hair_8bit_largepony.qb)"
+                        },
+                        "hair_8bit_sideshave": {
+                              "file": "file(hair_8bit_sideshave.qb)"
+                        },
+                        "hair_8bit_smallbun": {
+                              "file": "file(hair_8bit_smallbun.qb)"
+                        },
+                        "hair_8kitty_loom": {
+                              "file": "file(hair_8kitty_loom.qb)"
+                        },
+                        "hair_kitty_beadrellabloom": {
+                              "file": "file(hair_kitty_beadrellabloom.qb)"
+                        },
+                        "hair_kitty_beehive": {
+                              "file": "file(hair_kitty_beehive.qb)"
+                        },
+                        "hair_kitty_bejeweled": {
+                              "file": "file(hair_kitty_bejeweled.qb)"
+                        },
+                        "hair_kitty_boycut": {
+                              "file": "file(hair_kitty_boycut.qb)"
+                        },
+                        "hair_kitty_bunnybun": {
+                              "file": "file(hair_kitty_bunnybun.qb)"
+                        },
+                        "hair_kitty_dreads": {
+                              "file": "file(hair_kitty_dreads.qb)"
+                        },
+                        "hair_kitty_spiralcurl": {
+                              "file": "file(hair_kitty_spiralcurl.qb)"
+                        },
+                        "hair_kitty_spiralhat": {
+                              "file": "file(hair_kitty_spiralhat.qb)"
+                        },
+                        "hair_kitty_fancyhigh": {
+                              "file": "file(hair_kitty_fancyhigh.qb)"
+                        },
+                        "hair_kitty_benefactor": {
+                              "file": "file(hair_kitty_benefactor.qb)"
+                        },
+                        "hair_kitty_benefactorlong": {
+                              "file": "file(hair_kitty_benefactorlong.qb)"
+                        },
+                        "hair_kitty_longerfrizzcurls": {
+                              "file": "file(hair_kitty_longerfrizzcurls.qb)"
+                        },
+                        "hair_kitty_longersimplecurls": {
+                              "file": "file(hair_kitty_longersimplecurls.qb)"
+                        },
+                        "hair_kitty_octotail": {
+                              "file": "file(hair_kitty_octotail.qb)"
+                        },
+                        "hair_kitty_omgfrizzcurls": {
+                              "file": "file(hair_kitty_omgfrizzcurls.qb)"
+                        },
+                        "hair_kitty_omgsimplecurls": {
+                              "file": "file(hair_kitty_omgsimplecurls.qb)"
+                        },
+                        "hair_kitty_fancyshaggy": {
+                              "file": "file(hair_kitty_fancyshaggy.qb)"
+                        },
+                        "hair_kitty_fancyshave": {
+                              "file": "file(hair_kitty_fancyshave.qb)"
+                        },
+                        "hair_kitty_fancyweave": {
+                              "file": "file(hair_kitty_fancyweave.qb)"
+                        },
+                        "hair_kitty_frizzcurls": {
+                              "file": "file(hair_kitty_frizzcurls.qb)"
+                        },
+                        "hair_kitty_geeky": {
+                              "file": "file(hair_kitty_geeky.qb)"
+                        },
+                        "hair_kitty_geeky2": {
+                              "file": "file(hair_kitty_geeky2.qb)"
+                        },
+                        "hair_kitty_long": {
+                              "file": "file(hair_kitty_long.qb)"
+                        },
+                        "hair_kitty_ornate": {
+                              "file": "file(hair_kitty_ornate.qb)"
+                        },
+                        "hair_kitty_overbraid": {
+                              "file": "file(hair_kitty_overbraid.qb)"
+                        },
+                        "hair_kitty_princess": {
+                              "file": "file(hair_kitty_princess.qb)"
+                        },
+                        "hair_kitty_queen": {
+                              "file": "file(hair_kitty_queen.qb)"
+                        },
+                        "hair_kitty_ribbons": {
+                              "file": "file(hair_kitty_ribbons.qb)"
+                        },
+                        "hair_kitty_rogue": {
+                              "file": "file(hair_kitty_rogue.qb)"
+                        },
+                        "hair_kitty_sideswoop": {
+                              "file": "file(hair_kitty_sideswoop.qb)"
+                        },
+                        "hair_kitty_simpcurls": {
+                              "file": "file(hair_kitty_simpcurls.qb)"
+                        },
+                        "hair_kitty_simpleshag": {
+                              "file": "file(hair_kitty_simpleshag.qb)"
+                        },
+                        "hair_kitty_workout": {
+                              "file": "file(hair_kitty_workout.qb)"
+                        },
+                        "hair_kitty_xena": {
+                              "file": "file(hair_kitty_xena.qb)"
+                        },
+                        "hair_sheep_lowpigtail": {
+                              "file": "file(hair_sheep_lowpigtail.qb)"
+                        },
+                        "hair_kitty_hazcatband": {
+                              "file": "file(hair_kitty_hazcatband.qb)"
+                        },
+                        "hair_kitty_hazphones1": {
+                              "file": "file(hair_kitty_hazphones1.qb)"
+                        },
+                        "hair_kitty_hazphones2": {
+                              "file": "file(hair_kitty_hazphones2.qb)"
+                        },
+                        "hair_sheep_pixie": {
+                              "file": "file(hair_sheep_pixie.qb)"
+                        },
+                        "hair_wiese_emo": {
+                              "file": "file(hair_wiese_emo.qb)"
+                        },
+                        "vox_head_rose": {
+                            "file": "file(vox_head_rose.qb)"
+                        },
+                        "vox_head_sprainy": {
+                            "file": "file(vox_head_sprainy.qb)"
+                        },
+                        "vox_head_kaia": {
+                            "file": "file(vox_head_kaia.qb)"
+                        },
+                        "female_head_bald_1": {
+                            "file": "file(head_bald_1.qb)"
+                        },
+                        "female_head_bald_2": {
+                            "file": "file(head_bald_2.qb)"
+                        }
+                  }
+            },
+            "facial_hair": {
+                "type": "model",
+                "values": {
+                    "[none]": {
+                        "file": ""
+                    }
+                }
+            },
+            "eyebrows": {
+                "type": "model",
+                "values": {
+                    "[none]": {
+                        "file": ""
+                    },
+                    "straight_eyebrows": {
+                        "file": "file(brows_0.qb)"
+                    }
+                }
+            },
+            "luxury": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "bejeweledspecs": {
+                              "file": "file(KoD_bejeweledspecs.qb)"
+                        },
+                        "necklace": {
+                              "file": "file(KoD_necklace.qb)"
+                        },
+                        "bunnypendant": {
+                              "file": "file(KoD_bunnypendant.qb)"
+                        },
+                        "cuffcolar": {
+                              "file": "file(KoD_cuffcollar.qb)"
+                        },
+                        "jewelset": {
+                              "file": "file(KoD_jewelset.qb)"
+                        },
+                        "largemdant": {
+                              "file": "file(KoD_largemdant.qb)"
+                        },
+                        "sheepling": {
+                              "file": "file(KoD_sheepling.qb)"
+                        },
+                        "simplecollar": {
+                              "file": "file(KoD_simplecollar.qb)"
+                        },
+                        "veilthulu": {
+                              "file": "file(KoD_veilthulu.qb)"
+                        }
+                  }
+            },
+            "accessory": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "banditscarf": {
+                              "file": "file(KoD_banditscarf.qb)"
+                        },
+                        "cutebow": {
+                              "file": "file(KoD_cutebow.qb)"
+                        },
+                        "bunnyface": {
+                              "file": "file(KoD_bunnyface.qb)"
+                        },
+                        "catface": {
+                              "file": "file(KoD_catface.qb)"
+                        },
+                        "fancyknit": {
+                              "file": "file(KoD_fancyknit.qb)"
+                        },
+                        "fancypads": {
+                              "file": "file(KoD_fancypads.qb)"
+                        },
+                        "jokeglasses": {
+                              "file": "file(KoD_jokeglasses.qb)"
+                        },
+                        "jokeglasses2": {
+                              "file": "file(KoD_jokeglasses2.qb)"
+                        },
+                        "ladyscarf": {
+                              "file": "file(KoD_ladyscarf.qb)"
+                        },
+                        "neckerchief": {
+                              "file": "file(KoD_neckerchief.qb)"
+                        },
+                        "readingglasses": {
+                              "file": "file(KoD_readingglasses.qb)"
+                        },
+                        "simplebow": {
+                              "file": "file(KoD_simplebow.qb)"
+                        },
+                        "vox_glasses_0": {
+                            "file": "file(vox_glasses_0.qb)"
+                        },
+                        "vox_horns_0": {
+                            "file": "file(vox_horns_0.qb)"
+                        },
+                        "vox_horns_1": {
+                            "file": "file(vox_horns_1.qb)"
+                        },
+                        "vox_goggles_0": {
+                            "file": "file(vox_goggles_0.qb)"
+                        }
+                  }
+            }
+      }
+}

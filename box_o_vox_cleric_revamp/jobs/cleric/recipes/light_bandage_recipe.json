@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 45,
+   "work_units": 7,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.light_bandage_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.light_bandage_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/light_bandage/light_bandage.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 3
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:light_bandage"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+{
+    "roles": {
+       "default": {
+          "male": {
+             "uri": [
+                "box_o_vox_customizations:entities:humans:male:male_1"
+             ]
+          },
+          "female": {
+             "uri": [
+                "box_o_vox_customizations:entities:humans:female:female_1"
+             ]
+          }
+        }
+    }
+}

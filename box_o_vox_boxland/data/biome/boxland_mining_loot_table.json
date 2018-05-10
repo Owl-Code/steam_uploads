@@ -1,0 +1,26 @@
+{
+    "mixins": "stonehearth:mining:base_loot_table",
+    "mineable_blocks": {
+        "dirt": {
+            "entries": {
+                "default": {
+                    "num_rolls": 1,
+                    "items": {
+                        "none": {
+                            "uri": "",
+                            "weight": 100
+                        },
+                        "hunk_of_stone": {
+                            "uri": "stonehearth:resources:stone:hunk_of_stone",
+                            "weight": 15
+                        },
+                        "clay_mound": {
+                            "uri": "stonehearth:resources:clay:clay_mound",
+                            "weight": 15
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

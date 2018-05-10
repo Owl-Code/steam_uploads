@@ -1,0 +1,162 @@
+{
+   "entity_data": {
+      "stonehearth:customization_variants": {
+         "customization_options": "stonehearth:humans:female:customizations",
+         "root": {
+            "hair_and_skin_color": {
+               "weights": {
+                  "hair_and_skin_color": 1
+               }
+            },
+            "hair_model": {
+               "weights": {
+                  "hair_model": 1
+               }
+            }
+         },
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "black": 3,
+                     "brown": 3,
+                     "red": 1,
+                     "sandy": 1,
+                     "blonde": 1,
+                     "platinum": 1,
+                     "blue": 1,
+                     "green": 1,
+                     "grey": 1,
+                     "greyscvale": 1,
+                     "ice": 1,
+                     "icki": 1,
+                     "lavender": 1,
+                     "lime": 1,
+                     "orange": 1,
+                     "pink": 1,
+                     "purple": 1,
+                     "silver": 1,
+                     "crazy": 1,
+                     "crazy2": 1,
+                     "flame": 1,
+                     "white": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "white": 1
+                  }
+               },
+               "eye_color": {
+                  "weights": {
+                     "blue": 1,
+                     "brown": 1,
+                     "green": 1,
+                     "hazel": 1
+                  }
+               }
+            },
+            "hair_model": {
+               "head_hair": {
+                  "weights": {
+                     "hair_1": 1,
+                     "hair_2": 1,
+                     "hair_3": 1,
+                     "hair_4": 1,
+                     "hair_5": 1,
+                     "hair_6": 1,
+                     "hair_7": 1,
+                     "hair_8bit_doubletail": 1,
+                     "hair_8bit_hawk1": 1,
+                     "hair_8bit_hawk2": 1,
+                     "hair_8bit_largebun": 1,
+                     "hair_8bit_largepony": 1,
+                     "hair_8bit_sideshave": 1,
+                     "hair_8bit_smallbun": 1,
+                     "hair_8kitty_loom": 1,
+                     "hair_kitty_beadrellabloom": 1,
+                     "hair_kitty_beehive": 1,
+                     "hair_kitty_bejeweled": 1,
+                     "hair_kitty_boycut": 1,
+                     "hair_kitty_bunnybun": 1,
+                     "hair_kitty_dreads": 1,
+                     "hair_kitty_fancyhigh": 1,
+                     "hair_kitty_fancyshaggy": 1,
+                     "hair_kitty_fancyshave": 1,
+                     "hair_kitty_fancyweave": 1,
+                     "hair_kitty_frizzcurls":1,
+                     "hair_kitty_geeky": 1,
+                     "hair_kitty_geeky2": 1,
+                     "hair_kitty_long": 1,
+                     "hair_kitty_overbraid": 1,
+                     "hair_kitty_princess": 1,
+                     "hair_kitty_queen": 1,
+                     "hair_kitty_ribbons": 1,
+                     "hair_kitty_rogue": 1,
+                     "hair_kitty_sideswoop": 1,
+                     "hair_kitty_simpcurls": 1,
+                     "hair_kitty_simpleshag": 1,
+                     "hair_kitty_spiralcurl": 1,
+                     "hair_kitty_spiralhat": 1,					 
+                     "hair_kitty_workout": 1,
+                     "hair_kitty_xena": 1,
+                     "hair_kitty_benefactor": 1,
+                     "hair_kitty_benefactorlong": 1,
+                     "hair_kitty_longerfrizzcurls": 1,
+                     "hair_kitty_longersimplecurls": 1,
+                     "hair_kitty_octotail": 1,					 
+                     "hair_kitty_omgfrizzcurls": 1,
+                     "hair_kitty_omgsimplecurls": 1,						 
+                     "hair_sheep_lowpigtail": 1,
+                     "hair_kitty_hazcatband": 1,
+                     "hair_kitty_hazphones1": 1,
+                     "hair_kitty_hazphones2": 1,
+                     "hair_sheep_pixie": 1,
+                     "hair_wiese_emo": 1
+                  }
+               }
+            },
+            "eyebrows": {
+                "weights": {
+                    "[none]": 1,
+                    "straight_eyebrows": 1
+                }
+            },
+            "facial_hair": {
+                "weights": {
+                    "[none]": 1
+                }
+            },
+            "luxury": {
+               "weights": {
+                  "necklace": 1,
+                  "bejeweledspecs": 1,
+                  "bunnypendant": 0,
+                  "cuffcolar": 1,
+                  "jewelset": 1,
+                  "largemdant": 1,
+                  "sheepling": 1,
+                  "simplecollar": 1,
+                  "veilthulu": 1
+               }
+            },
+            "accessory": {
+               "weights": {
+                  "banditscarf": 1,
+                  "cutebow": 1,
+                  "bunnyface": 1,
+                  "catface": 1,
+                  "fancyknit": 1,
+                  "fancypads": 1,
+                  "jokeglasses": 1,
+                  "jokeglasses2": 1,
+                  "ladyscarf": 1,
+                  "neckerchief": 1,
+                  "readingglasses": 1,
+                  "simplebow": 1
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,27 @@
+{
+    "info": {
+        "name": "Box O' Vox - Boxland",
+        "namespace": "box_o_vox_boxland",
+		"version" : 3,
+		"steam_file_id" : "1379759521"
+    },
+    "server_init_script": "file(box_o_vox_boxland_server)",
+    "default_locale": "en",
+    "aliases": {
+            "data:biome:boxland_generation_data": "file(data/biome/boxland_generation_data.json)",
+            "data:biome:boxland": "file(data/biome/boxland.json)",
+            "data:thoughts": "file(data/happiness/thoughts.json)",
+            "data:weather:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist.json)",
+            "data:weather:sky_settings:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_sky_settings.json)",
+            "data:weather:subjects:enchanted_mist": "file(data/weather/enchanted_mist/enchanted_mist_subject.json)"
+        },
+    "components": {},
+    "mixintos": {
+        "stonehearth:biome:index": "file(data/biome/index.json)",
+        "stonehearth:data:thoughts": "box_o_vox_boxland:data:thoughts",
+        "stonehearth:terrain_blocks": "file(data/terrain/terrain_blocks.json)"
+    },
+    "overrides": {},
+    "controllers": {},
+    "ui": {}
+}

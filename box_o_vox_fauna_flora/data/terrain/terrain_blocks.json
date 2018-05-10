@@ -1,0 +1,11 @@
+{
+    "block_types": {
+        "salt_rock": {
+            "tag": 600,
+            "kind": "salt_rock"
+        }
+    },
+    "selectable_kinds": {
+        "salt_rock": "box_o_vox_fauna_flora:entities:terrain:ui:salt_rock"
+    }
+}

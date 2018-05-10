@@ -1,0 +1,14 @@
+{
+    "craftable_recipes": {
+        "clothing_armor": {
+            "recipes": {
+                "boxling_worker_outfit_2": {
+                    "recipe": "file(boxling_outfit_2_recipe.json)"
+                },
+                "boxling_worker_outfit_winter": {
+                    "recipe": "file(boxling_outfit_winter_recipe.json)"
+                }
+            }
+        }
+    }
+}

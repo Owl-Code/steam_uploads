@@ -1,0 +1,11 @@
+{
+    "craftable_recipes": {
+       "tools": {
+          "recipes": {
+             "necromancer_tome": {
+                "recipe": "file(tools/necromancer_tome_recipes.json)"
+             }
+          }
+       }
+    }
+ }

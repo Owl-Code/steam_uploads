@@ -1,0 +1,9 @@
+{
+    "resources": {
+        "fruit": {
+            "name": "i18n(box_o_vox_fauna_flora:ui.data.constants.food_fruit_raw_name)",
+            "default_resource": "stonehearth:food:berries:berry_basket",
+            "icon": "/box_o_vox_fauna_flora/mixins/food/fruit/fruits.png"
+        }
+    }
+}

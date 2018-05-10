@@ -1,0 +1,8 @@
+{
+    "mixins": "stonehearth:jobs:index",
+    "jobs": {
+        "stonehearth:jobs:cleric": {
+            "description": "box_o_vox_cleric_revamp:jobs:cleric"
+        }
+    }
+}

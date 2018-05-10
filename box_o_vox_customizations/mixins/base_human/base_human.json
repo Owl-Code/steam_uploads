@@ -1,0 +1,10 @@
+{
+    "components": {
+        "stonehearth:commands": {
+            "commands": [
+                "box_o_vox_customizations:data:commands:promote_to_job",
+                "stonehearth:commands:open_character_sheet"
+            ]
+        }
+    }
+}

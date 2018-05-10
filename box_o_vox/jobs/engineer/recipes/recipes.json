@@ -1,0 +1,21 @@
+{
+    "craftable_recipes": {
+        "tools": {
+            "ordinal": 2,
+            "name": "i18n(stonehearth:jobs.carpenter.recipes.tools_weapons_name)",
+            "recipes": {
+                "alchemist_flask": {
+                    "recipe": "file(tools/alchemist_flask_sword_recipe.json)"
+                }
+            }
+        },
+        "decorations": {
+            "name": "i18n(stonehearth:jobs.engineer.recipes.decorations_name)",
+            "recipes": {
+                "fridge": {
+                    "recipe": "file(fridge_recipe.json)"
+                }
+            }
+        }
+    }
+}

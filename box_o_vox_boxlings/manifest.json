@@ -1,0 +1,62 @@
+{
+    "info": {
+        "name": "Box O' Vox - Boxlings",
+        "namespace": "box_o_vox_boxlings",
+		"version" : 3,
+		"steam_file_id" : "1379759971"
+    },
+    "default_locale": "en",
+    "client_init_script": "file(box_o_vox_boxlings_client)",
+    "aliases": {
+        "data:gm_index": "file(data/gm/gm_index.json)",
+        "data:loadouts": "file(data/loadouts)",
+
+        
+        "data:music:combat_1": "file(data/music/combat_1.ogg)",
+        "data:music:combat_2": "file(data/music/combat_2.ogg)",
+        "data:music:combat_3": "file(data/music/combat_3.ogg)",
+        "data:music:day_1": "file(data/music/day_1.ogg)",
+        "data:music:day_2": "file(data/music/day_2.ogg)",
+        "data:music:day_3": "file(data/music/day_3.ogg)",
+        "data:music:night_1": "file(data/music/night_1.ogg)",
+        "data:music:night_2": "file(data/music/night_2.ogg)",
+        "data:music:night_3": "file(data/music/night_3.ogg)",
+        "data:music:title_1": "file(data/music/title_1.ogg)",
+
+        "entities:tools:boxling_sceptre": "file(entities/tools/boxling_sceptre)",
+
+        "entities:armor:cloth_hood": "file(entities/armor/cloth_hood/cloth_hood.json)",
+        "entities:armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
+        "entities:boxling:boxling_statue": "file(entities/boxling/boxling_statue)",
+
+        "entities:human:female_1": "file(entities/humans/female/female_1.json)",
+        "entities:human:male_1": "file(entities/humans/male/male_1.json)",
+        "entities:humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
+        "entities:humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
+        "jobs:index": "file(jobs/index.json)",
+
+        "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
+
+        "jobs:worker": "file(jobs/worker/worker_description.json)",
+        "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
+        "jobs:worker:boxling_outfit_2": "file(jobs/worker/boxling_outfit_2)",
+        "jobs:worker:winter_boxling_outfit": "file(jobs/worker/winter_boxling_outfit)",
+        "mixins:base_human": "file(mixins/base_human)",
+
+        "server:population:data:kingdoms:boxling": "file(services/server/population/data/boxling_population.json)"
+    },
+    "components": {},
+    "mixintos": {
+        "stonehearth:jobs:index": "file(jobs/index_mixin.json)",
+        "stonehearth:data:gm_index": "box_o_vox_boxlings:data:gm_index",
+        "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
+        "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
+
+        "stonehearth:loadouts": "file(data/loadouts)",
+        "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
+
+        "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox_boxlings:jobs:recipes:weaver"},
+    "overrides": {},
+    "controllers": {},
+    "ui": {}
+}

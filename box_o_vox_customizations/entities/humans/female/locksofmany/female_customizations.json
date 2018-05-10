@@ -1,0 +1,451 @@
+{
+      "type": "index",
+      "categories": {
+            "head_hair": [
+                  "head_hair"
+            ],
+            "face_hair": [
+                  "eyebrows",
+                  "facial_hair"
+            ],
+            "skin_color": [
+                  "skin_color"
+            ],
+            "eye_color": [
+                  "eye_color"
+            ],
+            "hair_color": [
+                  "hair_color"
+            ],
+            "accessory": [
+                  "accessory",
+                  "luxury"
+            ]
+      },
+      "styles": {
+            "hair_color": {
+                  "type": "material_map",
+                  "values": {
+                        "black": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_black_material_map.json"
+                        },
+                        "brown": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_brown_material_map.json"
+                        },
+                        "red": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_red_material_map.json"
+                        },
+                        "sandy": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_sandy_material_map.json"
+                        },
+                        "blonde": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_blonde_material_map.json"
+                        },
+                        "platinum": {
+                              "file": "/stonehearth/data/materials/material_maps/hair_platinum_material_map.json"
+                        },
+                        "blue": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_blue_material_map.json"
+                        },
+                        "green": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_green_material_map.json"
+                        },
+                        "grey": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_grey_material_map.json"
+                        },
+                        "greyscale": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_greyscale_material_map.json"
+                        },
+                        "ice": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_ice_material_map.json"
+                        },
+                        "icki": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_icki_material_map.json"
+                        },
+                        "lavender": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_lavender_material_map.json"
+                        },
+                        "lime": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_lime_material_map.json"
+                        },
+                        "orange": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_orange_material_map.json"
+                        },
+                        "pink": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_pink_material_map.json"
+                        },
+                        "purple": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_purple_material_map.json"
+                        },
+                        "silver": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_silver_material_map.json"
+                        },
+                        "crazy": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy_material_map.json"
+                        },
+                        "crazy2": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy2_material_map.json"
+                        },
+                        "flame": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_flame_material_map.json"
+                        },
+                        "white": {
+                              "file": "/locksofmanyhair/data/materials/material_maps/hair_white_material_map.json"
+                        }
+                  }
+            },
+            "skin_color": {
+                  "type": "material_map",
+                  "values": {
+                        "white": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_white_material_map.json"
+                        },
+                        "brown_1": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_brown1_material_map.json"
+                        },
+                        "brown_2": {
+                              "file": "/stonehearth/data/materials/material_maps/skin_brown2_material_map.json"
+                        },
+                        "vox_demon": {
+                            "file": "/box_o_vox_customizations/data/materials/material_maps/skin_demon_material_map.json"
+                        }
+                  }
+            },
+            "eye_color": {
+                  "type": "material_map",
+                  "values": {
+                        "aqua": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_aqua_material_map.json"
+                        },
+                        "black": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_black_material_map.json"
+                        },
+                        "blue": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_blue_material_map.json"
+                        },
+                        "blurple": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_blurple_material_map.json"
+                        },
+                        "brown": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_brown_material_map.json"
+                        },
+                        "green": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_green_material_map.json"
+                        },
+                        "hazel": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_hazel_material_map.json"
+                        },
+                        "magenta": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_magenta_material_map.json"
+                        },
+                        "red": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_red_material_map.json"
+                        },
+                        "yellow": {
+                              "file": "/stonehearth/data/materials/material_maps/eye_yellow_material_map.json"
+                        }
+                  }
+            },
+            "head_hair": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "hair_1": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_1.qb"
+                        },
+                        "hair_2": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_2.qb"
+                        },
+                        "hair_3": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_3.qb"
+                        },
+                        "hair_4": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_4.qb"
+                        },
+                        "hair_5": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_5.qb"
+                        },
+                        "hair_6": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_6.qb"
+                        },
+                        "hair_7": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_7.qb"
+                        },
+                        "hair_8": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8.qb"
+                        },
+                        "hair_8bit_doubletail": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_doubletail.qb"
+                        },
+                        "hair_8bit_hawk1": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_hawk1.qb"
+                        },
+                        "hair_8bit_hawk2": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_hawk2.qb"
+                        },
+                        "hair_8bit_largebun": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_largebun.qb"
+                        },
+                        "hair_8bit_largepony": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_largepony.qb"
+                        },
+                        "hair_8bit_sideshave": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_sideshave.qb"
+                        },
+                        "hair_8bit_smallbun": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8bit_smallbun.qb"
+                        },
+                        "hair_8kitty_loom": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_8kitty_loom.qb"
+                        },
+                        "hair_kitty_beadrellabloom": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_beadrellabloom.qb"
+                        },
+                        "hair_kitty_beehive": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_beehive.qb"
+                        },
+                        "hair_kitty_bejeweled": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_bejeweled.qb"
+                        },
+                        "hair_kitty_boycut": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_boycut.qb"
+                        },
+                        "hair_kitty_bunnybun": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_bunnybun.qb"
+                        },
+                        "hair_kitty_dreads": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_dreads.qb"
+                        },
+                        "hair_kitty_spiralcurl": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_spiralcurl.qb"
+                        },
+                        "hair_kitty_spiralhat": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_spiralhat.qb"
+                        },
+                        "hair_kitty_fancyhigh": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_fancyhigh.qb"
+                        },
+                        "hair_kitty_benefactor": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_benefactor.qb"
+                        },
+                        "hair_kitty_benefactorlong": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_benefactorlong.qb"
+                        },
+                        "hair_kitty_longerfrizzcurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_longerfrizzcurls.qb"
+                        },
+                        "hair_kitty_longersimplecurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_longersimplecurls.qb"
+                        },
+                        "hair_kitty_octotail": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_octotail.qb"
+                        },
+                        "hair_kitty_omgfrizzcurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_omgfrizzcurls.qb"
+                        },
+                        "hair_kitty_omgsimplecurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_omgsimplecurls.qb"
+                        },
+                        "hair_kitty_fancyshaggy": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_fancyshaggy.qb"
+                        },
+                        "hair_kitty_fancyshave": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_fancyshave.qb"
+                        },
+                        "hair_kitty_fancyweave": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_fancyweave.qb"
+                        },
+                        "hair_kitty_frizzcurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_frizzcurls.qb"
+                        },
+                        "hair_kitty_geeky": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_geeky.qb"
+                        },
+                        "hair_kitty_geeky2": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_geeky2.qb"
+                        },
+                        "hair_kitty_long": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_long.qb"
+                        },
+                        "hair_kitty_ornate": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_ornate.qb"
+                        },
+                        "hair_kitty_overbraid": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_overbraid.qb"
+                        },
+                        "hair_kitty_princess": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_princess.qb"
+                        },
+                        "hair_kitty_queen": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_queen.qb"
+                        },
+                        "hair_kitty_ribbons": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_ribbons.qb"
+                        },
+                        "hair_kitty_rogue": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_rogue.qb"
+                        },
+                        "hair_kitty_sideswoop": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_sideswoop.qb"
+                        },
+                        "hair_kitty_simpcurls": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_simpcurls.qb"
+                        },
+                        "hair_kitty_simpleshag": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_simpleshag.qb"
+                        },
+                        "hair_kitty_workout": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_workout.qb"
+                        },
+                        "hair_kitty_xena": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_xena.qb"
+                        },
+                        "hair_sheep_lowpigtail": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_sheep_lowpigtail.qb"
+                        },
+                        "hair_kitty_hazcatband": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_hazcatband.qb"
+                        },
+                        "hair_kitty_hazphones1": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_hazphones1.qb"
+                        },
+                        "hair_kitty_hazphones2": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_kitty_hazphones2.qb"
+                        },
+                        "hair_sheep_pixie": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_sheep_pixie.qb"
+                        },
+                        "hair_wiese_emo": {
+                              "file": "locksofmanyhair/entities/humans/female/hair_wiese_emo.qb"
+                        },
+                        "vox_head_rose": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_head_rose.qb"
+                        },
+                        "vox_head_sprainy": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_head_sprainy.qb"
+                        },
+                        "vox_head_kaia": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_head_kaia.qb"
+                        },
+                        "female_head_bald_1": {
+                            "file": "box_o_vox_customizations/entities/humans/female/head_bald_1.qb"
+                        },
+                        "female_head_bald_2": {
+                            "file": "box_o_vox_customizations/entities/humans/female/head_bald_2.qb"
+                        }
+                  }
+            },
+            "facial_hair": {
+                "type": "model",
+                "values": {
+                    "[none]": {
+                        "file": ""
+                    }
+                }
+            },
+            "eyebrows": {
+                "type": "model",
+                "values": {
+                    "[none]": {
+                        "file": ""
+                    },
+                    "straight_eyebrows": {
+                        "file": "box_o_vox_customizations/entities/humans/female/brows_0.qb"
+                    }
+                }
+            },
+            "luxury": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "bejeweledspecs": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_bejeweledspecs.qb"
+                        },
+                        "necklace": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_necklace.qb"
+                        },
+                        "bunnypendant": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_bunnypendant.qb"
+                        },
+                        "cuffcolar": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_cuffcollar.qb"
+                        },
+                        "jewelset": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_jewelset.qb"
+                        },
+                        "largemdant": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_largemdant.qb"
+                        },
+                        "sheepling": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_sheepling.qb"
+                        },
+                        "simplecollar": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_simplecollar.qb"
+                        },
+                        "veilthulu": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_veilthulu.qb"
+                        }
+                  }
+            },
+            "accessory": {
+                  "type": "model",
+                  "values": {
+                        "[none]": {
+                              "file": ""
+                        },
+                        "banditscarf": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_banditscarf.qb"
+                        },
+                        "cutebow": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_cutebow.qb"
+                        },
+                        "bunnyface": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_bunnyface.qb"
+                        },
+                        "catface": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_catface.qb"
+                        },
+                        "fancyknit": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_fancyknit.qb"
+                        },
+                        "fancypads": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_fancypads.qb"
+                        },
+                        "jokeglasses": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_jokeglasses.qb"
+                        },
+                        "jokeglasses2": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_jokeglasses2.qb"
+                        },
+                        "ladyscarf": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_ladyscarf.qb"
+                        },
+                        "neckerchief": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_neckerchief.qb"
+                        },
+                        "readingglasses": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_readingglasses.qb"
+                        },
+                        "simplebow": {
+                              "file": "locksofmanyhair/entities/humans/female/KoD_simplebow.qb"
+                        },
+                        "vox_glasses_0": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_glasses_0.qb"
+                        },
+                        "vox_horns_0": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_horns_0.qb"
+                        },
+                        "vox_horns_1": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_horns_1.qb"
+                        },
+                        "vox_goggles_0": {
+                            "file": "box_o_vox_customizations/entities/humans/female/vox_goggles_0.qb"
+                        }
+                  }
+            }
+      }
+}

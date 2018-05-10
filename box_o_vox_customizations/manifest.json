@@ -1,0 +1,63 @@
+{
+    "info": {
+        "name": "Box O' Vox - Customizations",
+            "namespace" : "box_o_vox_customizations",
+            "version" : 3,
+            "steam_file_id" : "1379757054"
+        },
+    "default_locale": "en",
+    "client_init_script": "file(box_o_vox_customizations_client)",
+    "aliases": {
+        "data:commands:promote_to_job": "file(data/commands/promote_to_job/promote_to_job.json)",
+
+        "entities:humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
+        "entities:humans:female:female_1": "file(entities/humans/female/female_1.json)",
+        "entities:humans:female": "file(entities/humans/female/female.json)",
+
+        "entities:humans:male:customizations": "file(entities/humans/male/male_customizations.json)",
+        "entities:humans:male:male_1": "file(entities/humans/male/male_1.json)",
+        "entities:humans:male": "file(entities/humans/male/male.json)",
+
+        "mixins:base_human": "file(mixins/base_human)",
+        "mixins:base_population": "file(mixins/base_population)"
+    },
+    "components": {},
+    "mixintos": {
+        "stonehearth:mixins:base_human": "box_o_vox_customizations:mixins:base_human",
+        "box_o_vox_boxlings:mixins:base_human": "box_o_vox_customizations:mixins:base_human",
+
+        "stonehearth:male_1": "box_o_vox_customizations:entities:humans:male",
+        "stonehearth:male_2": "box_o_vox_customizations:entities:humans:male",
+        "stonehearth:male_3": "box_o_vox_customizations:entities:humans:male",
+        "stonehearth:male_4": "box_o_vox_customizations:entities:humans:male",
+        "stonehearth:male_npc_1": "box_o_vox_customizations:entities:humans:male",
+
+        "stonehearth:female_1": "box_o_vox_customizations:entities:humans:female",
+        "stonehearth:female_2": "box_o_vox_customizations:entities:humans:female",
+        "stonehearth:female_3": "box_o_vox_customizations:entities:humans:female",
+        "stonehearth:female_npc_1": "box_o_vox_customizations:entities:humans:female",
+        "/1364596242/entities/humans/female/female_1.json": "box_o_vox_customization:entities:humans:female:female_1",
+        "/1364596242/entities/humans/male/male_1.json": "box_o_vox_customization:entities:humans:male:male_1",
+
+        
+        "/locksofmanyhair/entities/humans/female/female_1.json": "box_o_vox_customizations:entities:humans:male",
+        "/locksofmanyhair/entities/humans/female/female_2.json": "box_o_vox_customizations:entities:humans:male",
+        "/locksofmanyhair/entities/humans/female/female_3.json": "box_o_vox_customizations:entities:humans:male",
+
+        "/locksofmanyhair/entities/humans/male/male_1.json": "box_o_vox_customizations:entities:humans:female",
+        "/locksofmanyhair/entities/humans/male/male_2.json": "box_o_vox_customizations:entities:humans:female",
+        "/locksofmanyhair/entities/humans/male/male_3.json": "box_o_vox_customizations:entities:humans:female",
+
+
+        "stonehearth:kingdoms:ascendancy": "box_o_vox_customizations:mixins:base_population",
+        "rayyas_children:kingdoms:rayyas_children": "box_o_vox_customizations:mixins:base_population"
+        
+    },
+    "overrides": {
+        "/stonehearth/ui/shell/select_roster/select_roster.html": "file(ui/shell/select_roster/select_roster.html)",
+        "/stonehearth/ui/shell/select_roster/select_roster.js": "file(ui/shell/select_roster/select_roster.js)",
+        "/stonehearth/ui/shell/select_roster/select_roster.less": "file(ui/shell/select_roster/select_roster.less)"
+    },
+    "controllers": {},
+    "ui": {}
+}

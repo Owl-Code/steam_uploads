@@ -1,0 +1,13 @@
+{
+    "craftable_recipes": {
+        "tools": {
+            "ordinal": 10,
+            "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
+            "recipes": {
+                "necromancer_tome": {
+                    "recipe": "file(tools/necromancer_tome_recipes.json)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "info": {
+        "name": "Box O' Vox - Decorations",
+        "namespace": "box_o_vox_decorations",
+		"version" : 3,
+		"steam_file_id" : "1379762648"
+    },
+    "default_locale": "en",
+    "aliases": {
+        "data:build:brushes:pattern:vox_cobblestone": "file(data/build/brushes/pattern/vox_cobblestone/vox_cobblestone.qb)",
+        "data:build:brushes:roof:vox_blue_castle": "file(data/build/brushes/roof/vox_blue_castle/vox_blue_castle.qb)",
+        "data:build:brushes:roof:vox_blue_roof": "file(data/build/brushes/roof/vox_blue_roof/vox_blue_roof.qb)",
+        "data:build:brushes:roof:vox_green_castle": "file(data/build/brushes/roof/vox_green_castle/vox_green_castle.qb)",
+        "data:build:brushes:roof:vox_green_roof": "file(data/build/brushes/roof/vox_green_roof/vox_green_roof.qb)",
+        "data:build:brushes:roof:vox_purple_castle": "file(data/build/brushes/roof/vox_purple_castle/vox_purple_castle.qb)",
+        "data:build:brushes:roof:vox_purple_roof": "file(data/build/brushes/roof/vox_purple_roof/vox_purple_roof.qb)",
+        "data:build:brushes:roof:vox_red_castle": "file(data/build/brushes/roof/vox_red_castle/vox_red_castle.qb)",
+        "data:build:brushes:wall:blue_stone_wall": "file(data/build/brushes/wall/blue_stone_wall/blue_stone_wall.qb)",
+        "data:build:brushes:wall:green_stone_wall": "file(data/build/brushes/wall/green_stone_wall/green_stone_wall.qb)",
+        "data:build:brushes:wall:purple_stone_wall": "file(data/build/brushes/wall/purple_stone_wall/purple_stone_wall.qb)",
+        "data:build:brushes:wall:red_wood_wall": "file(data/build/brushes/wall/red_wood_wall/red_wood_wall.qb)",
+
+        "data:effects:blue_road_lamp_effect": "file(data/effects/road_lamp_effect/blue_road_lamp_effect.json)",
+        "data:effects:fireplace_effect": "file(data/effects/fireplace_effect/fireplace_effect.json)",
+        "data:effects:green_road_lamp_effect": "file(data/effects/road_lamp_effect/green_road_lamp_effect.json)",
+        "data:effects:purple_road_lamp_effect": "file(data/effects/road_lamp_effect/purple_road_lamp_effect.json)",
+        "data:effects:red_road_lamp_effect": "file(data/effects/road_lamp_effect/red_road_lamp_effect.json)",
+
+        "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
+        "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
+        "entities:containers:food_crate": "file(entities/containers/food_crate)",
+        "entities:containers:furniture_crate": "file(entities/containers/furniture_crate)",
+        "entities:containers:resources_crate": "file(entities/containers/resources_crate)",
+        "entities:containers:treasure_crate": "file(entities/containers/treasure_crate)",
+
+        "entities:decoration:bathtub": "file(entities/decoration/bathtub)",
+        "entities:decoration:blue_stone_road_lamp": "file(entities/decoration/blue_stone_road_lamp)",
+        "entities:decoration:blue_wooden_road_lamp": "file(entities/decoration/blue_wooden_road_lamp)",
+        "entities:decoration:boxling_statue": "file(entities/decoration/boxling_statue)",
+        "entities:decoration:cabinet": "file(entities/decoration/cabinet)",
+        "entities:decoration:fireplace": "file(entities/decoration/fireplace)",
+        "entities:decoration:fridge": "file(entities/decoration/fridge)",
+        "entities:decoration:grandfather_clock": "file(entities/decoration/grandfather_clock)",
+        "entities:decoration:green_stone_road_lamp": "file(entities/decoration/green_stone_road_lamp)",
+        "entities:decoration:green_wooden_road_lamp": "file(entities/decoration/green_wooden_road_lamp)",
+        "entities:decoration:purple_stone_road_lamp": "file(entities/decoration/purple_stone_road_lamp)",
+        "entities:decoration:purple_wooden_road_lamp": "file(entities/decoration/purple_wooden_road_lamp)",
+        "entities:decoration:red_stone_road_lamp": "file(entities/decoration/red_stone_road_lamp)",
+        "entities:decoration:red_wooden_road_lamp": "file(entities/decoration/red_wooden_road_lamp)",
+        "entities:decoration:sink": "file(entities/decoration/sink)",
+        "entities:decoration:toilet": "file(entities/decoration/toilet)",
+        "entities:decoration:wall_clock": "file(entities/decoration/wall_clock)",
+
+        "entities:portals:solid_red_wood_door": "file(entities/construction/solid_red_wood_door)",
+        "entities:portals:solid_stone_door": "file(entities/construction/solid_stone_door)",
+        "entities:portals:stone_door": "file(entities/construction/stone_door)",
+        "entities:portals:stoned_tunnel_door": "file(entities/construction/stoned_tunnel_door)",
+        "entities:portals:stone_window_frame_tall": "file(entities/construction/stone_window_frame_tall)",
+        "entities:portals:stone_window_frame_wide": "file(entities/construction/stone_window_frame_wide)",
+        
+
+        "jobs:mason:recipes": "file(jobs/mason/recipes/recipes.json)",
+        "jobs:blacksmith:recipes": "file(jobs/blacksmith/recipes/recipes.json)",
+        "jobs:carpenter:recipes": "file(jobs/carpenter/recipes/recipes.json)",
+        "jobs:potter:recipes": "file(jobs/potter/recipes/recipes.json)",
+
+
+        "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
+        "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)"
+        
+    },
+    "components": {},
+    "mixintos": {
+        "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
+
+        "/stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox_decorations:jobs:mason:recipes",
+        "/stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox_decorations:jobs:blacksmith:recipes",
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox_decorations:jobs:carpenter:recipes",
+        "/stonehearth/jobs/potter/recipes/recipes.json": "box_o_vox_decorations:jobs:potter:recipes"
+    },
+    "overrides": {},
+    "controllers": {},
+    "ui": {}
+}

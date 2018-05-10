@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "Box O' Vox - Cleric Crafting",
+        "namespace": "box_o_vox_cleric_revamp",
+        "version": 3,
+        "steam_file_id": "1379762147"
+    },
+    "default_locale": "en",
+    "aliases": {
+        "jobs:cleric": "file(jobs/cleric/cleric_description.json)",
+        "jobs:cleric:recipes": "file(jobs/cleric/recipes/recipes.json)",
+        "jobs:cleric:workbench": "file(jobs/cleric/cleric_workbench)",
+        "jobs:herbalist:recipes": "file(jobs/herbalist/recipes/recipes.json)",
+        "data:ui:startmenu": "file(data/ui/start_menu.json)"
+    },
+    "components": {},
+    "mixintos": {
+        "/stonehearth/data/ui/start_menu.json": "box_o_vox_cleric_revamp:data:ui:startmenu"
+    },
+    "overrides": {
+        "/stonehearth/jobs/cleric/cleric_description.json": "file(jobs/cleric/cleric_description.json)",
+        "/stonehearth/jobs/cleric/cleric_abilities/cleric_abilities.json": "file(jobs/cleric/cleric_abilities/cleric_abilities.json)",
+        "/box_o_vox_necromancer/jobs/herbalist/recipes/recipes.json": "box_o_vox_cleric_revamp:jobs:herbalist:recipes"
+    },
+    "controllers": {
+        "class:cleric": "file(jobs/cleric/cleric.lua)"
+    },
+    "ui": {
+        "less": [
+            "file(jobs/cleric/skin/workshop.less)"
+        ]
+    }
+}
