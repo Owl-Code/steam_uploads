@@ -357,7 +357,7 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
             self.setCustomizationLocked('hair_color', true);
             self.setCustomizationLocked('skin_color', true);
             self.setCustomizationLocked('eye_color', true);
-            self.setCustomizationLocked('head_accessory', true);
+            self.setCustomizationLocked('accessory', true);
         }
     },
 
@@ -709,7 +709,7 @@ App.StonehearthCitizenRosterEntryView = App.View.extend({
 
     accessoryLocked: function () {
         var self = this;
-        if (self._isCustomizationLocked('head_accessory')) {
+        if (self._isCustomizationLocked('accessory')) {
             return 'locked';
         }
     }.property('lockedOptions'),

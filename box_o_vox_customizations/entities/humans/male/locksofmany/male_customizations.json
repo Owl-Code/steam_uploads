@@ -6,7 +6,7 @@
       "skin_color": ["skin_color"],
       "eye_color": ["eye_color"],
       "hair_color": ["hair_color"],
-      "accessory": ["accessory"]
+      "head_accessory": ["head_accessory"]
    },
    "styles": {
       "hair_color": {
@@ -226,7 +226,7 @@
             }
          }
       },
-      "accessory": {
+      "head_accessory": {
           "type": "model",
           "values": {
               "[none]": {

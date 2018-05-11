@@ -71,7 +71,7 @@
                     }
                 },
                 "young": {
-                    "head_accessory": {
+                    "accessory": {
                         "weights": {
                             "[none]": 1,
                             "vox_glasses_0": 1,

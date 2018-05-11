@@ -1447,7 +1447,7 @@
       "shell": {
          "select_roster": {
             "eye_color": "Eye Color",
-            "head_accessory": "Accessories"
+            "accessory": "Accessories"
          }
       }
    },

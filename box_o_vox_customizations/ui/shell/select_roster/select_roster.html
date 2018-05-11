@@ -62,14 +62,14 @@
                             <div class="customizeLabel">{{i18n stonehearth:ui.shell.select_roster.facial_hair}}</div>
                         </div>
 
-                        <div id="accessory" class="indexButton" {{bind-attr locked=view.selectedView.accessoryLocked}}>
-                            <a href="#" {{action "toggleLock" "customization" "accessory" target="view.selectedView" }}>
-                                <div {{bind-attr class=":customizationLock :lockImg view.selectedView.accessoryLocked" }} />
+                        <div id="head_accessory" class="indexButton" {{bind-attr locked=view.selectedView.head_accessoryLocked}}>
+                            <a href="#" {{action "toggleLock" "customization" "head_accessory" target="view.selectedView" }}>
+                                <div {{bind-attr class=":customizationLock :lockImg view.selectedView.head_accessoryLocked" }} />
                             </a>
-                            {{view.selectedView.accessory_index}}
-                            <div class="increment arrowButton" {{action "changeIndex" "increment" "accessory" target=view.selectedView}}></div>
-                            <div class="decrement arrowButton" {{action "changeIndex" "decrement" "accessory" target=view.selectedView}}></div>
-                            <div class="customizeLabel">{{i18n box_o_vox_customizations:ui.shell.select_roster.accessory}}</div>
+                            {{view.selectedView.head_accessory_index}}
+                            <div class="increment arrowButton" {{action "changeIndex" "increment" "head_accessory" target=view.selectedView}}></div>
+                            <div class="decrement arrowButton" {{action "changeIndex" "decrement" "head_accessory" target=view.selectedView}}></div>
+                            <div class="customizeLabel">{{i18n box_o_vox_customizations:ui.shell.select_roster.head_accessory}}</div>
                         </div>
 
                     </div>

@@ -17,8 +17,8 @@
             "hair_color": [
                   "hair_color"
             ],
-            "accessory": [
-                  "accessory",
+            "head_accessory": [
+                  "head_accessory",
                   "luxury"
             ]
       },
@@ -391,7 +391,7 @@
                         }
                   }
             },
-            "accessory": {
+            "head_accessory": {
                   "type": "model",
                   "values": {
                         "[none]": {

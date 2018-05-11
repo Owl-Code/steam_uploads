@@ -47,7 +47,6 @@
     },
     "components": {},
     "mixintos": {
-        "stonehearth:jobs:index": "file(jobs/index_mixin.json)",
         "stonehearth:data:gm_index": "box_o_vox_boxlings:data:gm_index",
         "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
         "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",

@@ -72,7 +72,7 @@
                     }
                 },
                 "hair_model": {
-                    "accessory": {
+                    "head_accessory": {
                         "weights": {
                             "[none]": 1,
                             "vox_glasses_0": 1,

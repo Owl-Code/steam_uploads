@@ -1,12 +1,16 @@
 {
     "type": "index",
+    "mixintypes": {
+       "categories": "override",
+       "styles": "override"
+    },
     "categories": {
         "head_hair": ["head_hair"],
         "face_hair": ["eyebrows", "facial_hair"],
         "skin_color": ["skin_color"],
         "eye_color": ["eye_color"],
         "hair_color": ["hair_color"],
-        "accessory": ["accessory"]
+        "head_accessory": ["head_accessory"]
     },
     "styles": {
         "hair_color": {
@@ -106,28 +110,28 @@
                     "file": ""
                 },
                 "female_hair_1": {
-                    "file": "stonehearth/entities/humans/female/hair_1.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_1.qb"
                 },
                 "female_hair_2": {
-                    "file": "stonehearth/entities/humans/female/hair_2.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_2.qb"
                 },
                 "female_hair_3": {
-                    "file": "stonehearth/entities/humans/female/hair_3.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_3.qb"
                 },
                 "female_hair_4": {
                     "file": "/stonehearth/entities/humans/female/hair_4.qb"
                 },
                 "female_hair_5": {
-                    "file": "stonehearth/entities/humans/female/hair_5.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_5.qb"
                 },
                 "female_hair_6": {
-                    "file": "stonehearth/entities/humans/female/hair_6.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_6.qb"
                 },
                 "female_hair_7": {
-                    "file": "stonehearth/entities/humans/female/hair_7.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_7.qb"
                 },
                 "female_hair_8": {
-                    "file": "stonehearth/entities/humans/female/hair_8.qb"
+                    "file": "/stonehearth/entities/humans/female/hair_8.qb"
                 },
                 "vox_head_rose": {
                     "file": "file(vox_head_rose.qb)"
@@ -165,7 +169,7 @@
                 }
             }
         },
-        "accessory": {
+        "head_accessory": {
             "type": "model",
             "values": {
                 "[none]": {

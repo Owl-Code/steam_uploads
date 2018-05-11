@@ -63,13 +63,13 @@
                         </div>
 
                         <div id="accessory" class="indexButton" {{bind-attr locked=view.selectedView.accessoryLocked}}>
-                            <a href="#" {{action "toggleLock" "customization" "head_accessory" target="view.selectedView" }}>
+                            <a href="#" {{action "toggleLock" "customization" "accessory" target="view.selectedView" }}>
                                 <div {{bind-attr class=":customizationLock :lockImg view.selectedView.accessoryLocked" }} />
                             </a>
-                            {{view.selectedView.head_accessory_index}}
-                            <div class="increment arrowButton" {{action "changeIndex" "increment" "head_accessory" target=view.selectedView}}></div>
-                            <div class="decrement arrowButton" {{action "changeIndex" "decrement" "head_accessory" target=view.selectedView}}></div>
-                            <div class="customizeLabel">{{i18n box_o_vox:ui.shell.select_roster.head_accessory}}</div>
+                            {{view.selectedView.accessory_index}}
+                            <div class="increment arrowButton" {{action "changeIndex" "increment" "accessory" target=view.selectedView}}></div>
+                            <div class="decrement arrowButton" {{action "changeIndex" "decrement" "accessory" target=view.selectedView}}></div>
+                            <div class="customizeLabel">{{i18n box_o_vox:ui.shell.select_roster.accessory}}</div>
                         </div>
 
                     </div>

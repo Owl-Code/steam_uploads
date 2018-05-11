@@ -31,22 +31,13 @@
         "stonehearth:male_3": "box_o_vox_customizations:entities:humans:male",
         "stonehearth:male_4": "box_o_vox_customizations:entities:humans:male",
         "stonehearth:male_npc_1": "box_o_vox_customizations:entities:humans:male",
+        "stonehearth:humans:male:customizations": "box_o_vox_customizations:entities:humans:male:customizations",
 
         "stonehearth:female_1": "box_o_vox_customizations:entities:humans:female",
         "stonehearth:female_2": "box_o_vox_customizations:entities:humans:female",
         "stonehearth:female_3": "box_o_vox_customizations:entities:humans:female",
         "stonehearth:female_npc_1": "box_o_vox_customizations:entities:humans:female",
-        "/1364596242/entities/humans/female/female_1.json": "box_o_vox_customization:entities:humans:female:female_1",
-        "/1364596242/entities/humans/male/male_1.json": "box_o_vox_customization:entities:humans:male:male_1",
-
-        
-        "/locksofmanyhair/entities/humans/female/female_1.json": "box_o_vox_customizations:entities:humans:male",
-        "/locksofmanyhair/entities/humans/female/female_2.json": "box_o_vox_customizations:entities:humans:male",
-        "/locksofmanyhair/entities/humans/female/female_3.json": "box_o_vox_customizations:entities:humans:male",
-
-        "/locksofmanyhair/entities/humans/male/male_1.json": "box_o_vox_customizations:entities:humans:female",
-        "/locksofmanyhair/entities/humans/male/male_2.json": "box_o_vox_customizations:entities:humans:female",
-        "/locksofmanyhair/entities/humans/male/male_3.json": "box_o_vox_customizations:entities:humans:female",
+        "stonehearth:humans:female:customizations": "box_o_vox_customizations:entities:humans:female:customizations",
 
 
         "stonehearth:kingdoms:ascendancy": "box_o_vox_customizations:mixins:base_population",

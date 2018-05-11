@@ -14,6 +14,6 @@
       "weapon": [
          "box_o_vox_necromancer:entities:weapon:summon_necromancer_tome"
       ],
-      "abilities": "box_o_vox_necromancer:entities:abilities:summon_necro_abilities"
+      "abilities": "box_o_vox_necromancer:entities:summon:necromancer:abilities"
    }
 }

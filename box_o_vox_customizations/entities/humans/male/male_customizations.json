@@ -1,12 +1,16 @@
 {
     "type": "index",
+    "mixintypes": {
+       "categories": "override",
+       "styles": "override"
+    },
     "categories": {
         "head_hair": ["head_hair"],
         "face_hair": ["eyebrows", "facial_hair"],
         "skin_color": ["skin_color"],
         "eye_color": ["eye_color"],
         "hair_color": ["hair_color"],
-        "accessory": ["accessory"]
+        "head_accessory": ["head_accessory"]
     },
     "styles": {
         "hair_color": {
@@ -106,17 +110,17 @@
                     "file": ""
                 },
                 "beard_chin": {
-                    "file": "stonehearth/entities/humans/male/chin_beard.qb"
+                    "file": "/stonehearth/entities/humans/male/chin_beard.qb"
                 },
                 "chops": {
-                    "file": "stonehearth/entities/humans/male/chops.qb"
+                    "file": "/stonehearth/entities/humans/male/chops.qb"
                 },
                 "beard": {
-                    "file": "stonehearth/entities/humans/male/beard.qb"
+                    "file": "/stonehearth/entities/humans/male/beard.qb"
                 },
                 "beard_epic": {
                     "hidden": true,
-                    "file": "stonehearth/entities/humans/male/beard_epic.qb"
+                    "file": "/stonehearth/entities/humans/male/beard_epic.qb"
                 },
                 "vox_beard_0": {
                     "file": "file(vox_beard_0.qb)"
@@ -143,7 +147,7 @@
                 }
             }
         },
-        "accessory": {
+        "head_accessory": {
             "type": "model",
             "values": {
                 "[none]": {
@@ -170,22 +174,22 @@
                     "file": ""
                 },
                 "male_hair_1": {
-                    "file": "stonehearth/entities/humans/male/hair_1.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_1.qb"
                 },
                 "male_hair_2": {
-                    "file": "stonehearth/entities/humans/male/hair_2.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_2.qb"
                 },
                 "male_hair_3": {
-                    "file": "stonehearth/entities/humans/male/hair_3.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_3.qb"
                 },
                 "male_hair_4": {
-                    "file": "stonehearth/entities/humans/male/hair_4.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_4.qb"
                 },
                 "male_hair_old_1": {
-                    "file": "stonehearth/entities/humans/male/hair_old_1.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_old_1.qb"
                 },
                 "male_hair_old_2": {
-                    "file": "stonehearth/entities/humans/male/hair_old_2.qb"
+                    "file": "/stonehearth/entities/humans/male/hair_old_2.qb"
                 },
                 "vox_head_vox_1": {
                     "file": "file(vox_head_vox_1.qb)"
