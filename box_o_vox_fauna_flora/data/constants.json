@@ -1,4 +1,7 @@
 {
+    "mixintypes": {
+        "food_qualities": "override"
+    },
     "type": "index",
     "constants": {
         "farming": {

@@ -5,7 +5,7 @@
 		"version" : 3,
 		"steam_file_id" : "1379760990"
     },
-    "client_init_script": "file(box_o_vox_fauna_flora_client)",
+    "server_init_script": "file(box_o_vox_fauna_flora_server)",
     "default_locale": "en",
     "aliases": {
         "data:biome:boxland_generation_data": "file(data/biome/boxland_generation_data.json)",
