@@ -54,7 +54,9 @@
         "stonehearth:loadouts": "file(data/loadouts)",
         "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
 
-        "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox_boxlings:jobs:recipes:weaver"},
+        "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox_boxlings:jobs:recipes:weaver",
+        "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)"
+    },
     "overrides": {},
     "controllers": {},
     "ui": {}

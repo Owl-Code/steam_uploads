@@ -38,7 +38,7 @@
 
         "data:traits:passion_necromancer":                              "file(data/traits/passion_necromancer/passion_necromancer_trait.json)",
 
-        "entities:summon:necromancer:abilities":                    "file(entities/summon/necromancer/abilities/abilities.json)",
+        "entities:summon:necromancer:abilities":                        "file(entities/summon/necromancer/abilities/abilities.json)",
 
         "entities:summon:golem":                                        "file(entities/summon/golem/golem_summon.json)",
         "entities:summon:golem_kid":                                    "file(entities/summon/golem_kid/golem_kid_summon.json)",
