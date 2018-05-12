@@ -12,7 +12,7 @@
    "equipment_scale": 0.04,
    "equipment": {
       "weapon": [
-         "stonehearth:weapons:stone_maul"
+         "stonehearth:weapons:dagger"
       ]
    }
 }

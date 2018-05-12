@@ -7,6 +7,7 @@
     },
     "default_locale": "en",
     "aliases": {
+
         "data:build:brushes:pattern:vox_cobblestone": "file(data/build/brushes/pattern/vox_cobblestone/vox_cobblestone.qb)",
         "data:build:brushes:roof:vox_blue_castle": "file(data/build/brushes/roof/vox_blue_castle/vox_blue_castle.qb)",
         "data:build:brushes:roof:vox_blue_roof": "file(data/build/brushes/roof/vox_blue_roof/vox_blue_roof.qb)",
@@ -26,6 +27,8 @@
         "data:effects:purple_road_lamp_effect": "file(data/effects/road_lamp_effect/purple_road_lamp_effect.json)",
         "data:effects:red_road_lamp_effect": "file(data/effects/road_lamp_effect/red_road_lamp_effect.json)",
 
+        "data:resource_constants": "file(data/resource_constants.json)",
+        
         "entities:containers:box_o_vox_crate": "file(entities/containers/box_o_vox_crate)",
         "entities:containers:equipment_crate": "file(entities/containers/equipment_crate)",
         "entities:containers:food_crate": "file(entities/containers/food_crate)",
@@ -66,17 +69,31 @@
 
 
         "mixins:portals:small_door": "file(mixins/doors/small_door.json)",
-        "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)"
+        "mixins:portals:small_door_ghost": "file(mixins/doors/small_door_ghost.json)",
+
+        "mixintos:fuel:wood": "file(entities/resources/wood/all_logs.json)",
+        "mixintos:fuel:coal": "file(entities/resources/coal/lump_of_coal)"
         
     },
     "components": {},
     "mixintos": {
+        "stonehearth:data:resource_constants": "box_o_vox_decorations:data:resource_constants",
+
         "stonehearth:build:brushes": "file(data/build/building_brushes.json)",
 
         "/stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox_decorations:jobs:mason:recipes",
         "/stonehearth/jobs/blacksmith/recipes/recipes.json": "box_o_vox_decorations:jobs:blacksmith:recipes",
         "/stonehearth/jobs/carpenter/recipes/recipes.json": "box_o_vox_decorations:jobs:carpenter:recipes",
-        "/stonehearth/jobs/potter/recipes/recipes.json": "box_o_vox_decorations:jobs:potter:recipes"
+        "/stonehearth/jobs/potter/recipes/recipes.json": "box_o_vox_decorations:jobs:potter:recipes",
+
+        "stonehearth:resources:coal:lump_of_coal": "box_o_vox_decorations:mixintos:fuel:coal",
+        "stonehearth:resources:wood:acacia_log": "box_o_vox_decorations:mixintos:fuel:wood",
+        "stonehearth:resources:wood:cactus_log": "box_o_vox_decorations:mixintos:fuel:wood",
+        "stonehearth:resources:wood:juniper_log": "box_o_vox_decorations:mixintos:fuel:wood",
+        "stonehearth:resources:wood:oak_log": "box_o_vox_decorations:mixintos:fuel:wood",
+        "stonehearth:resources:wood:palm_log": "box_o_vox_decorations:mixintos:fuel:wood",
+        "stonehearth:resources:wood:pine_log": "box_o_vox_decorations:mixintos:fuel:wood"
+        
     },
     "overrides": {},
     "controllers": {},

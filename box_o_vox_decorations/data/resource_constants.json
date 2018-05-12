@@ -1,0 +1,9 @@
+{
+    "resources": {
+        "fuel resource": {
+            "name": "i18n(box_o_vox_decorations:ui.data.constants.resource_fuel_name)",
+            "default_resource": "stonehearth:resources:coal:lump_of_coal",
+            "icon": "/box_o_vox_decorations/mixins/fuel/fuel/fuel.png"
+        }
+    }
+}
