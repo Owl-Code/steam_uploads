@@ -1,0 +1,134 @@
+<script type="text/x-handlebars" data-template-name="stonehearthMultiplayerMenu">
+   <div id="multiplayerMenu" class="gui">
+      <div class="window">
+         <div class="title">{{i18n stonehearth:ui.game.multiplayer_menu.display_name}}<div class="closeButton"></div></div>
+         <div id="partybar">
+            <div class="icons">
+               {{#each clientData in view.partyArray}}
+                  <div class="personIcon">
+                     <div class="head" {{bind-attr style=clientData.colorStyle}}></div>
+                     <div class="body" {{bind-attr style=clientData.colorStyle}}></div>
+                  </div>
+               {{/each}}
+            </div>
+            <a href="#" {{action "openFriendsOverlay" command target="view"}} class='uisounds' {{bind-attr class="view.shouldHideInvite:hidden:"}}>
+               <button class="inviteButton">Invite</button>
+            </a>
+         </div>
+         <div class="list downSection">
+            <table>
+               <tbody>
+               {{#each clientData in view.clientsArray}}
+                  {{ view "stonehearthMultiplayerMenuRow" menuView=view playerId=clientData.playerId clientData=clientData index=_view.contentIndex}}
+               {{/each}}
+               </tbody>
+            </table>
+         </div>
+
+         <div id="serverInfo">
+            {{#if view.remoteConnectionsDisabled}}
+               <div id="remoteConnectionsDisabled" title="{{i18n stonehearth:ui.game.multiplayer_menu.remote_connections_disabled_description}}">{{i18n stonehearth:ui.game.multiplayer_menu.remote_connections_disabled}}</div>
+            {{/if}}
+            <div id="numPlayers">{{i18n stonehearth:ui.game.multiplayer_menu.players}}: {{view.numConnected}} / {{view.maxPlayers}}</div>
+         </div>
+
+         <div id="toolbar">
+            {{#if view.selectingOtherPlayer}}
+               {{#if view.selectedRow.is_camp_placed}}
+                  <a href="#" {{action "startTradeWithPlayer" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.trade}}
+                     </button>
+                  </a>
+                  <href="#" {{action "setPlayerHostile" command target="view"}} class ='uisounds'>
+                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.hostile}}
+                    </button>
+                  </a>
+                  <href="#" {{action "setPlayerNeutral" command target="view"}} class ='uisounds'>
+                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.neutral}}
+                    </button>
+                  </a>
+                  <href="#" {{action "setPlayerFriendly" command target="view"}} class ='uisounds'>
+                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
+                    </button>
+                  </a>
+
+               {{/if}}
+            {{/if}}
+            {{#if view.showPlayerManagementButtons}}
+               {{#if view.selectedRow.is_online}}
+                  <a href="#" {{action "disconnectPlayer" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :warn" }}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.disconnect_player}}
+                     </button>
+                  </a>
+               {{else}}
+                  <a href="#" {{action "erasePlayer" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :warn" }}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.erase_player}}
+                     </button>
+                  </a>
+                  <a href="#" {{action "transferPlayer" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :warn" }}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.transfer_player}}
+                     </button>
+                  </a>
+               {{/if}}
+            {{else}}
+               {{#if view.isHostPlayer}}
+                  <a href="#" {{action "showSettings" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :brown" }}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.settings}}
+                     </button>
+                  </a>
+               {{/if}}
+            {{/if}}
+         </div>
+      </div>
+   </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="stonehearthMultiplayerMenuRow">
+   <td class="clientRow">
+      <div class="banner">
+         {{#if view.steamAvatar}}
+            <img class="playerIcon" {{bind-attr src=view.steamAvatar}}/>
+         {{else}}
+            {{#if view.playerIcon}}
+               <img class="playerIcon" {{bind-attr src=view.playerIcon}}/>
+            {{/if}}
+         {{/if}}
+      </div>
+
+      <div class="description">
+         <div class="names">
+            <div class="name">
+               {{view.townName}}
+            </div>
+            {{#if view.colorStyle}}
+               <div class="playerColorBox" {{bind-attr style=view.colorStyle}}></div>
+            {{/if}}
+            <div class="steamName">
+               {{view.steamName}}
+            </div>
+         </div>
+
+         <div class="clientInfo">
+            <div {{bind-attr class="view.is_online:online:offline :connectionStatus"}}>
+               {{view.connectionStatus}}
+            </div>
+
+            <div class="clientType">
+               {{#if view.isHost}}
+                  {{i18n stonehearth:ui.game.multiplayer_menu.host}}
+               {{else}}
+                  {{i18n stonehearth:ui.game.multiplayer_menu.client}}
+               {{/if}}
+            </div>
+         </div>
+      </div>
+   </td>
+</script>

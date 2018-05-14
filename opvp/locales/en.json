@@ -1,0 +1,11 @@
+{
+    "ui": {
+        "game": {
+            "multiplayer_menu": {
+                "hostile": "Hostile",
+                "neutral": "Neutral",
+                "friendly": "Friendly"
+            }
+        }
+    }
+}

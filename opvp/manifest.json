@@ -1,0 +1,17 @@
+{
+	"info" : {
+		"name" : "O' Pvp",
+		"namespace" : "opvp",
+		"version" : 3,
+		"steam_file_id" : "1385936893"
+	},
+	"default_locale" : "en",
+	"aliases" : {},
+	"mixintos" : {},
+	"overrides" : {
+        "/stonehearth/ui/game/multiplayer_menu.html": "file(ui/game/multiplayer_menu.html)",
+        "/stonehearth/ui/game/multiplayer_menu.js": "file(ui/game/multiplayer_menu.js)"
+    },
+	"components" : {},
+	"controllers" : {}
+}

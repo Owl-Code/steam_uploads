@@ -1,8 +1,0 @@
-{
-    "mixins": "stonehearth:jobs:index",
-    "jobs": {
-        "stonehearth:jobs:worker": {
-            "description": "box_o_vox:jobs:worker"
-        }
-    }
-}
