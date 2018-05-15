@@ -1,0 +1,202 @@
+#multiplayerMenu {
+   position: absolute;
+   left: 80px;
+   top: 260px;
+   width: 570px;
+   height: 560px;
+   display: none;
+
+   .window {
+      height: inherit;
+   }
+
+   .list {
+      height: 305px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      .row {
+         .handCursor;
+         &:hover {
+            background-color: rgba(143, 120, 70, 0.3);
+         }
+         margin-bottom: 10px;
+      }
+
+      td:nth-child(even) {
+         background: rgba(0,0,0,0.1);
+      }
+
+      .row.selected {
+         background-color: rgba(143, 120, 70, 1.0);
+      }
+
+      .row.selected.inactive {
+         //background-color: rgba(0, 0, 0, 0.4);
+         //opacity: 0.5;
+      }
+
+      .row.inactive {
+         opacity: 0.5;
+      }
+
+      .clientRow {
+         width: 600px;
+         height: 60px;
+
+         vertical-align: baseline;
+      }
+
+      .banner {
+         display: inline-block;
+         margin-top: 5px;
+         margin-left: 6px;
+         vertical-align: top;
+         width: 50px;
+         height: 50px;
+
+         .playerIcon{
+            width: 50px;
+            height: 50px;
+         }
+      }
+
+      .description {
+         display: inline-block;
+         margin-top: 5px;
+
+         .names {
+            display: inline-block;
+            width: 340px;
+            margin-left: 3px;
+            text-indent: 3px;
+            vertical-align: top;
+
+            .name {
+               .outlined;
+               font-family: @headerFontFamily;
+               background: rgba(0,0,0,0.0);
+               font-size: 17px;
+               border: 0px;
+               position: relative;
+               overflow:hidden;
+               text-overflow: ellipsis;
+               margin-top: 4px;
+               color: #cdc1a4;
+               display: inline-block;
+               padding-right: 2px;
+            }
+
+            .playerColorBox {
+               display: inline-block;
+               width: 20px;
+               height: 20px;
+               border: 1px solid rgba(0, 0, 0, .2);
+               margin-left: 1px;
+            }
+
+            .steamName {
+               margin-top: 4px;
+               font-style: italic;
+               font-family: @baseFontFamily;
+               font-size: 14px;
+            }
+         }
+
+         .clientInfo {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 10px;
+
+            .connectionStatus {
+               font-size: 12px;
+            }
+
+            .online {
+               color: @activityColor;
+            }
+            .offline {
+               color: #aaaaaa;
+               font-style: italic;
+            }
+
+            .clientType {
+               margin-top: 5px;
+               font-size: 10px;
+            }
+         }
+      }
+   }
+
+   #serverInfo {
+      margin-left: 10px;
+
+      #numPlayers {
+         font-family: @headerFontFamily;
+         font-size: 18px;
+         display: inline-block;
+         color: #fedb17;
+      }
+
+      #remoteConnectionsDisabled {
+         font-family: @headerFontFamily;
+         font-size: 18px;
+         color: #cdc1a4;
+         float: right;
+         display: inline-block;
+         margin-right: 10px;
+      }
+   }
+
+   #toolbar {
+      margin-top: 10px;
+   }
+
+   #partybar {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+
+      margin-top: 10px;
+      margin-left: 10px;
+
+      .icons {
+         display:inline-flex;
+         flex-direction: row;
+         align-items: center;
+         border: 1px solid #ccc;
+         padding: 6px;
+         margin-right: 15px;
+
+         .personIcon {
+            display: inline-flex;
+            margin: 2px;
+            flex-direction: column;
+            align-items: center;
+
+            .head {
+               border: 2px solid #ccc;
+               width: 14px;
+               height: 13px;
+               border-radius: 3px;
+            }
+
+            .body {
+               border: 2px solid #ccc;
+               width: 10px;
+               height: 4px;
+               border-radius: 6px 6px 0px 0px;
+            }
+         }
+      }
+
+      .inviteButton {
+         padding: 2px;
+         font-size: 15px;
+      }
+
+      .hidden {
+         display: none;
+      }
+   }
+}

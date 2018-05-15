@@ -4,7 +4,19 @@
             "multiplayer_menu": {
                 "hostile": "Hostile",
                 "neutral": "Neutral",
-                "friendly": "Friendly"
+                "friendly": "Friendly",
+                "confirm": {
+                    "hostile_player":{"title": "Hostile",
+                    "description": "Makes you hostile towards player"},
+                    "neutral_player":{
+                        "title": "Neutral",
+                        "description": "Makes you neutral towards player"
+                    },
+                    "friendly_player": {
+                        "title": "Friendly",
+                        "description": "Makes you friendly towards player"
+                    }
+                }
             }
         }
     }

@@ -34,14 +34,8 @@
 
          <div id="toolbar">
             {{#if view.selectingOtherPlayer}}
-               {{#if view.selectedRow.is_camp_placed}}
-                  <a href="#" {{action "startTradeWithPlayer" command target="view"}} class='uisounds'>
-                     <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n stonehearth:ui.game.multiplayer_menu.trade}}
-                     </button>
-                  </a>
                   <href="#" {{action "setPlayerHostile" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                    <button {{bind-attr class="buttonEnabled :warn"}}>
                         {{i18n opvp:ui.game.multiplayer_menu.hostile}}
                     </button>
                   </a>
@@ -55,7 +49,12 @@
                         {{i18n opvp:ui.game.multiplayer_menu.friendly}}
                     </button>
                   </a>
-
+               {{#if view.selectedRow.is_camp_placed}}
+                  <a href="#" {{action "startTradeWithPlayer" command target="view"}} class='uisounds'>
+                     <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n stonehearth:ui.game.multiplayer_menu.trade}}
+                     </button>
+                  </a>
                {{/if}}
             {{/if}}
             {{#if view.showPlayerManagementButtons}}
