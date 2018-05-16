@@ -91,29 +91,21 @@ App.StonehearthMultiplayerMenuView = App.View.extend({
 
       actions: {
             setPlayerHostile: function () {
-                  var self = this;
-                  var playerId = self.get('selectedRow.playerId');
-                  if (playerId) {
-                        radiant.call_obj('opvp.player', 'set_amenity_command', self.playerId, playerId, "hostile").done();
-                  }
+                        radiant.call_obj('stonehearth.selection', 'get_selected_command')
+                        .done(function (response) {
+                              radiant.call_obj('stonehearth.player', 'debug_set_amenity_command',response.result, "hostile")
+                        });
             },
-
             setPlayerNeutral: function () {
-                  var self = this;
-                  var playerId = self.get('selectedRow.playerId');
-                  if (playerId) {
+                  this._showAllianceView('set_amenity', function (playerId) {
                         radiant.call_obj('opvp.player', 'set_amenity_command', self.playerId, playerId, "neutral").done();
-                  }
+                  });
             },
-
             setPlayerFriendly: function () {
-                  var self = this;
-                  var playerId = self.get('selectedRow.playerId');
-                  if (playerId) {
+                  this._showAllianceView('set_amenity', function (playerId) {
                         radiant.call_obj('opvp.player', 'set_amenity_command', self.playerId, playerId, "friendly").done();
-                  }
+                  });
             },
-
             disconnectPlayer: function () {
                   this._showConfirmView('disconnect_player', function (playerId) {
                         radiant.call_obj('stonehearth.player', 'disconnect_player_command', playerId);
@@ -241,14 +233,14 @@ App.StonehearthMultiplayerMenuView = App.View.extend({
       _showAllianceView: function (actionName, actionCb) {
             var self = this;
             var playerId = self.get('selectedRow.playerId');
-            if (self._confirmView != null && !this._confirmView.isDestroyed) {
-                  self._confirmView.destroy();
-                  self._confirmView = null;
+            if (self._allianceView != null && !this._allianceView.isDestroyed) {
+                  self._allianceView.destroy();
+                  self._allianceView = null;
             }
 
-            self._confirmView = App.gameView.addView(App.StonehearthConfirmView, {
-                  title: i18n.t('stonehearth:ui.game.multiplayer_menu.confirm.' + actionName + '.title'),
-                  message: i18n.t('stonehearth:ui.game.multiplayer_menu.confirm.' + actionName + '.message'),
+            self._allianceView = App.gameView.addView(App.StonehearthConfirmView, {
+                  title: i18n.t('opvp:ui.game.multiplayer_menu.confirm.' + actionName + '.title'),
+                  message: i18n.t('opvp:ui.game.multiplayer_menu.confirm.' + actionName + '.message'),
                   buttons: [{
                               label: i18n.t('stonehearth:ui.game.multiplayer_menu.confirm.continue'),
                               click: function () {
