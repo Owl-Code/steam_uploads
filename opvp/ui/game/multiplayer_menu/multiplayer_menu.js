@@ -90,21 +90,33 @@ App.StonehearthMultiplayerMenuView = App.View.extend({
       },
 
       actions: {
-            setPlayerHostile: function () {
-                        radiant.call_obj('stonehearth.selection', 'get_selected_command')
-                        .done(function (response) {
-                              radiant.call_obj('stonehearth.player', 'debug_set_amenity_command',response.result, "hostile")
-                        });
+            addEnemyToPlayer: function () {
+                  var self = this;
+                  var playerId = self.get('slectedRow.playerId');
+                  if (playerId) {
+                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "hostile")
+                  }
             },
-            setPlayerNeutral: function () {
-                  this._showAllianceView('set_amenity', function (playerId) {
-                        radiant.call_obj('opvp.player', 'set_amenity_command', self.playerId, playerId, "neutral").done();
-                  });
+            removeEnemyToPlayer: function () {
+                  var self = this;
+                  var playerId = self.get('slectedRow.playerId');
+                  if (playerId) {
+                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "neutral")
+                  }
             },
-            setPlayerFriendly: function () {
-                  this._showAllianceView('set_amenity', function (playerId) {
-                        radiant.call_obj('opvp.player', 'set_amenity_command', self.playerId, playerId, "friendly").done();
-                  });
+            addAlliedToPlayer: function () {
+                  var self = this;
+                  var playerId = self.get('slectedRow.playerId');
+                  if (playerId) {
+                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "friendly")
+                  }
+            },
+            removeAlliedToPlayer: function () {
+                  var self = this;
+                  var playerId = self.get('slectedRow.playerId');
+                  if (playerId) {
+                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "neutral")
+                  }
             },
             disconnectPlayer: function () {
                   this._showConfirmView('disconnect_player', function (playerId) {

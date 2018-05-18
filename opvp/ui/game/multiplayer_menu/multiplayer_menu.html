@@ -34,44 +34,27 @@
 
          <div id="toolbar">
             {{#if view.selectingOtherPlayer}}
-              {{#if view.selectedPlayerNeutral}}
-                  <href="#" {{action "setPlayerHostile" command target="view"}} class ='uisounds'>
+                  <href="#" {{action "addEnemyToPlayer" command target="view"}} class ='uisounds'>
+                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
+                    </button>
+                  </a>
+                  <href="#" {{action "removeEnemyToPlayer" command target="view"}} class ='uisounds'>
                     <button {{bind-attr class="buttonEnabled :warn"}}>
                         {{i18n opvp:ui.game.multiplayer_menu.hostile}}
                     </button>
                   </a>
 
-                  <href="#" {{action "setPlayerFriendly" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
-                    </button>
-                  </a>
-              {{/if}}
-              {{#if view.selectedPlayerHostile}}
-                  <href="#" {{action "setPlayerFriendly" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
-                    </button>
-                  </a>
-                  <href="#" {{action "setPlayerNeutral" command target="view"}} class ='uisounds'>
+                  <href="#" {{action "addAlliedToPlayer" command target="view"}} class ='uisounds'>
                     <button {{bind-attr class="buttonEnabled :brown"}}>
                         {{i18n opvp:ui.game.multiplayer_menu.neutral}}
                     </button>
                   </a>
-                {{else}}
-                
-                  <href="#" {{action "setPlayerHostile" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :warn"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.hostile}}
-                    </button>
-                  </a>
-
-                  <href="#" {{action "setPlayerNeutral" command target="view"}} class ='uisounds'>
+                  <href="#" {{action "removeAlliedToPlayer" command target="view"}} class ='uisounds'>
                     <button {{bind-attr class="buttonEnabled :brown"}}>
                         {{i18n opvp:ui.game.multiplayer_menu.neutral}}
                     </button>
                   </a>
-              {{/if}}
                {{#if view.selectedRow.is_camp_placed}}
                   <a href="#" {{action "startTradeWithPlayer" command target="view"}} class='uisounds'>
                      <button {{bind-attr class="buttonEnabled :brown"}}>

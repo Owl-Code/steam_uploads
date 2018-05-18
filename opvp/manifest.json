@@ -17,10 +17,15 @@
     },
 	"components" : {},
 	"controllers" : {},
+	"functions": {
+	},
 	"object_commands": {
-	   "player": [
-			"set_amenity_command"
-	   ]
- 
+		"alliance": [
+			"get_alliance_map",
+			"add_allied",
+			"add_enemy",
+			"remove_allied",
+			"removed_enemy"
+		]
 	}
 }

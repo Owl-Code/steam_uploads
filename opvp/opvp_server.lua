@@ -5,10 +5,16 @@ opvp = {
 
 -- set the debug flag based on the type of build, or specifc opting in by setting
 -- the 'stoneheath.debug' flag
---[[
+function opvp:_on_init()
+      local CustomPlayerService = require('services.server.player.player_service')
+      local PlayerService = radiant.mods.require('stonehearth.services.server.player.plyaer_service')
+      radiant.mixin(PlayerService, CustomPlayerService)
+end
+  
+radiant.events.listen_once(radiant,'radiant:client:server_ready', opvp, opvp._on_init)
+
 local service_creation_order = {
-   --'alliance'
-   'player'
+   'alliance'
 }
 
 local function create_service(name)
@@ -28,14 +34,6 @@ local function create_service(name)
    opvp[name] = service
 end
 
-function opvp:_on_required_loaded()
-      local CustomPlayerService = require('services.server.player.player_service')
-      local PlayerService = radiant.mods.require('stonehearth.services.server.player.player_service')
-      radiant.mixin(PlayerService, CustomPlayerService)
-end
-
-radiant.events.listen_once(radiant,'radiant:required_loaded', opvp, opvp._on_required_loaded)
-
 radiant.events.listen(opvp, 'radiant:init', function()
       radiant.terrain.initialize(true)
       opvp._sv = opvp.__saved_variables:get_data()
@@ -47,5 +45,5 @@ radiant.events.listen(opvp, 'radiant:init', function()
       radiant.events.trigger_async(radiant, 'radiant:services:init')
 
    end)
-   ]]--
+   
 return opvp
