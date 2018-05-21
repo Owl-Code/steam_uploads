@@ -1,0 +1,20 @@
+{
+    "info": {
+        "name": "O' Creative Mode",
+        "namespace": "o_create",
+        "version": 3,
+		"steam_file_id" : "1391179779"
+    },
+    "server_init_script": "file(o_create_server)",
+    "default_locale": "en",
+    "aliases": {},
+    "mixintos": { 
+        
+        "stonehearth:data:constants": "file(data/constants.json)",
+        "stonehearth:loadouts": "file(data/loadouts)",
+        "stoneheart:mixins:base_human": "file(mixins/base_human)"
+    },
+	"overrides" : {},
+	"components" : {},
+	"controllers" : {}
+}

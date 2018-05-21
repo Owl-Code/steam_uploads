@@ -133,6 +133,9 @@
     "components": {},
     "mixintos": {
         "stonehearth:mining:base_loot_table": "box_o_vox_fauna_flora:data:biome:mining",
+        
+        "/lorki_biome/data/biome/lorki_generation_data.json": "box_o_vox_fauna_flora:data:biome:generation",
+
         "/stonehearth/data/biome/temperate_generation_data.json": "box_o_vox_fauna_flora:data:biome:generation",
 
         "stonehearth:terrain_blocks": "box_o_vox_fauna_flora:data:terrain:terrain_blocks",

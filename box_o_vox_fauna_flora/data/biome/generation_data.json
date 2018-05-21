@@ -1,4 +1,9 @@
 {
+    "palettes": {
+        "spring": {
+            "salt_rock": "#eecccc"
+        }
+    },
     "landscape": {
         "placement_table": {
             "box_o_vox_fauna_flora:entities:plants:hemp_plant:small": {

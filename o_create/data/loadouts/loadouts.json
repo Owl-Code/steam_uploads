@@ -1,0 +1,118 @@
+{
+    "type": "index",
+    "loadouts": [{
+        "alias": "creative_mode",
+        "display_name": "Creative Mode",
+        "description": "Helps you build Wonderful Buildings",
+        "tooltip": "Hope you enjoy -owlGo",
+        "splash": "file(images/creative_mode/splash.png)",
+        "seal": "file(images/creative_mode/seal.png)",
+        "enabled": true,
+        "content": [{
+                "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:herbalist:talisman",
+                "icon": "file(images/items/herbalist_staff.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.farmer.farmer_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:farmer:talisman",
+                "icon": "file(images/items/farmer_hoe.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:carpenter:talisman",
+                "icon": "file(images/items/carpenter_saw.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.blacksmith.blacksmith_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:blacksmith:talisman",
+                "icon": "file(images/items/blacksmith_hammer.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.engineer.engineer_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:engineer:talisman",
+                "icon": "file(images/items/engineer_wrench.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.mason.mason_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:mason:talisman",
+                "icon": "file(images/items/mason_chisel.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.potter.potter_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:potter:talisman",
+                "icon": "file(images/items/potter_cutter.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "i18n(stonehearth:jobs.weaver.weaver_description.display_name)",
+                "type": "entity",
+                "uri": "stonehearth:weaver:talisman",
+                "icon": "file(images/items/weaver_spindle.png)",
+                "amount": 2
+            },
+            {
+                "display_name": "Worker Outfits",
+                "type": "entity",
+                "uri": "stonehearth:worker:outfit:2",
+                "icon": "file(images/items/worker_outfit_2.png)",
+                "amount": 10
+            },
+            {
+                "display_name": "Stone Piles",
+                "type": "entity",
+                "uri": "stonehearth:containers:stone_pile",
+                "icon": "file(images/items/stone_pile.png)",
+                "amount": 10
+            },
+            {
+                "display_name": "Clay Piles",
+                "type": "entity",
+                "uri": "stonehearth:containers:clay_pile",
+                "icon": "file(images/items/clay_pile.png)",
+                "amount": 10
+            },
+            {
+                "display_name": "Log Piles",
+                "type": "entity",
+                "uri": "stonehearth:containers:log_pile",
+                "icon": "file(images/items/log_pile.png)",
+                "amount": 10
+            },
+            {
+                "display_name": "Brightbells",
+                "type": "entity",
+                "uri": "stonehearth:resources:herb:brightbell",
+                "icon": "file(images/items/brightbell.png)",
+                "amount": 30
+            },
+            {
+                "display_name": "Silkweed",
+                "type": "entity",
+                "uri": "stonehearth:resources:fiber:silkweed_bundle",
+                "icon": "file(images/items/silkweed_bundle.png)",
+                "amount": 30
+            },
+            {
+                "display_name": "Gold",
+                "type": "gold",
+                "icon": "file(images/items/gold.png)",
+                "uri": "stonehearth:loot:gold",
+                "amount": 500
+            }
+        ]
+    }]
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(box_o_vox_boxlings:jobs.mason.recipes.stone_bed_recipe.recipe_name)",
+   "description": "i18n(box_o_vox_boxlings:jobs.mason.recipes.stone_bed_recipe.description)",
+   "flavor": "i18n(box_o_vox_boxlings:jobs.mason.recipes.stone_bed_recipe.flavor)",
+   "portrait": "/box_o_vox_boxlings/entities/furniture/stone_bed/stone_bed.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "box_o_vox_boxlings:entities:furniture:stone_bed"
+      }
+   ]
+}

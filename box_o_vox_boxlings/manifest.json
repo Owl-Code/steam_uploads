@@ -29,6 +29,7 @@
         "entities:armor:cloth_robe": "file(entities/armor/cloth_robe/cloth_robe.json)",
         "entities:boxling:boxling_statue": "file(entities/boxling/boxling_statue)",
 
+        "entities:furniture:stone_bed": "file(entities/furniture/stone_bed)",
         "entities:human:female_1": "file(entities/humans/female/female_1.json)",
         "entities:human:male_1": "file(entities/humans/male/male_1.json)",
         "entities:humans:female:customizations": "file(entities/humans/female/female_customizations.json)",
@@ -36,6 +37,7 @@
         "jobs:index": "file(jobs/index.json)",
 
         "jobs:recipes:weaver": "file(jobs/weaver/recipes/recipes.json)",
+        "jobs:recipes:mason": "file(jobs/mason/recipes/recipes.json)",
 
         "jobs:worker": "file(jobs/worker/worker_description.json)",
         "jobs:worker:boxling_outfit": "file(jobs/worker/boxling_outfit)",
@@ -55,6 +57,7 @@
         "/stonehearth/data/npc_index.json": "file(data/npc_index.json)",
 
         "/stonehearth/jobs/weaver/recipes/recipes.json": "box_o_vox_boxlings:jobs:recipes:weaver",
+        "/stonehearth/jobs/mason/recipes/recipes.json": "box_o_vox_boxlings:jobs:recipes:mason",
         "/stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)"
     },
     "overrides": {},

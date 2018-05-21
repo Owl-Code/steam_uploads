@@ -1,0 +1,21 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+             "mixintypes": {
+                 "trapper_knife": "override"
+             },
+            "trapper_knife": {
+               "recipe": "file(trapper_knife_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "recipes": {
+             "stone_bed": {
+                 "recipe":"file(stone_bed_recipe.json)"
+             }
+         }
+      }
+      }
+}

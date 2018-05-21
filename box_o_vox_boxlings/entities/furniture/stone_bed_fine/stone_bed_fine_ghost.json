@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_bed_fine.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.22
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.furniture.stone_bed_fine.stone_bed_fine_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.furniture.stone_bed_fine.stone_bed_fine_ghost.description)",
+         "icon": "file(stone_bed_fine.png)",
+         "category": "furniture",
+         "material_tags": "clay furniture crafted stockpile_furniture"
+      }
+   }
+}

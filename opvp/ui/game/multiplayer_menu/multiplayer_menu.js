@@ -94,28 +94,21 @@ App.StonehearthMultiplayerMenuView = App.View.extend({
                   var self = this;
                   var playerId = self.get('slectedRow.playerId');
                   if (playerId) {
-                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "hostile")
-                  }
-            },
-            removeEnemyToPlayer: function () {
-                  var self = this;
-                  var playerId = self.get('slectedRow.playerId');
-                  if (playerId) {
-                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "neutral")
+                        radiant.call_obj('opvp.alliance', 'add_enemy', playerId)
                   }
             },
             addAlliedToPlayer: function () {
                   var self = this;
                   var playerId = self.get('slectedRow.playerId');
                   if (playerId) {
-                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "friendly")
+                        radiant.call_obj('opvp.alliance', 'add_ally', playerId)
                   }
             },
-            removeAlliedToPlayer: function () {
+            removeAmenityToPlayer: function () {
                   var self = this;
                   var playerId = self.get('slectedRow.playerId');
                   if (playerId) {
-                        radiant.call_obj('stonehearth.player', 'debug_set_amenity_command', self.playerId, playerId, "neutral")
+                        radiant.call_obj('opvp.alliance', 'add_neutral', playerId)
                   }
             },
             disconnectPlayer: function () {

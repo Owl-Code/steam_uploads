@@ -35,26 +35,24 @@
          <div id="toolbar">
             {{#if view.selectingOtherPlayer}}
                   <href="#" {{action "addEnemyToPlayer" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
-                    </button>
-                  </a>
-                  <href="#" {{action "removeEnemyToPlayer" command target="view"}} class ='uisounds'>
                     <button {{bind-attr class="buttonEnabled :warn"}}>
                         {{i18n opvp:ui.game.multiplayer_menu.hostile}}
                     </button>
                   </a>
+                  </href="#">
+                  <href="#" {{action "removeAmenityToPlayer" command target="view"}} class ='uisounds'>
+                    <button {{bind-attr class="buttonEnabled :brown"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.neutral}}
+                    </button>
+                  </a>
+                  </href="#">
 
                   <href="#" {{action "addAlliedToPlayer" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.neutral}}
+                    <button {{bind-attr class="buttonEnabled :green"}}>
+                        {{i18n opvp:ui.game.multiplayer_menu.friendly}}
                     </button>
                   </a>
-                  <href="#" {{action "removeAlliedToPlayer" command target="view"}} class ='uisounds'>
-                    <button {{bind-attr class="buttonEnabled :brown"}}>
-                        {{i18n opvp:ui.game.multiplayer_menu.neutral}}
-                    </button>
-                  </a>
+                  </href="#">
                {{#if view.selectedRow.is_camp_placed}}
                   <a href="#" {{action "startTradeWithPlayer" command target="view"}} class='uisounds'>
                      <button {{bind-attr class="buttonEnabled :brown"}}>
